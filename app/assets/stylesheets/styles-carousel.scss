@@ -1,0 +1,134 @@
+.carousel  {
+   max-width: 1000px; 
+   margin: 50px auto;
+   width:100%;
+}
+.carousel-wrapper {
+   margin: 10px 30px; 
+   overflow: hidden; 
+   position:relative;
+}
+.carousel-items {
+   width: 10000px; 
+   position: relative; 
+}
+
+.carousel-block {
+   float: left; 
+   width: auto; 
+   padding: 10px 10px 10px 10px; 
+}
+.carousel-block img{
+   display:block;
+}
+
+/*********** BUTTONS ***********/
+.carousel-button-left a, .carousel-button-right a{
+   width: 16px; 
+   height: 28px; 
+   position: relative;
+   top: 95px; 
+   cursor: pointer; 
+   text-decoration:none;
+}
+.carousel-button-left:hover a, .carousel-button-right:hover a{
+   width: 16px; 
+   height: 28px; 
+   position: relative;
+   top: 95px; 
+   cursor: pointer; 
+   text-decoration:none;
+}
+.carousel-button-left:hover a{float: left; 
+   background: asset_url("carousel-left_hover.png"); }
+.carousel-button-right:hover a{float: right;
+   background: asset_url("carousel-right_hover.png"); }
+
+.carousel-button-left a{
+   float: left; 
+   background: asset_url("carousel-left.png"); 
+}
+.carousel-button-right a{
+   float: right;
+   background: asset_url("carousel-right.png");
+}
+
+@media (min-width:480px) and (max-width:550px){
+   .carousel  {
+      margin: 10px auto;
+      width: 100%;
+   }
+   .carousel-wrapper {
+      margin: 10px 30px; 
+      overflow: hidden; 
+      position:relative;
+   }
+   .carousel-block {
+         float: left; 
+         width: auto; 
+         padding: 10px 10px 10px 10px; 
+   }
+   .carousel-block img{
+      display:block;
+      height: 70px;
+   }
+   .carousel-button-left a, .carousel-button-right a{
+      top: 30px; 
+   }
+   .carousel-button-left:hover a, .carousel-button-right:hover a{
+      top: 30px; 
+   }
+   .carousel-button-left:hover a{float: left; 
+      background: asset_url("carousel-left_hover.png"); }
+   .carousel-button-right:hover a{float: right;
+      background: asset_url("carousel-right_hover.png"); }
+
+   .carousel-button-left a{
+      float: left; 
+      background: asset_url("carousel-left.png"); 
+   }
+   .carousel-button-right a{
+      float: right;
+      background: asset_url("carousel-right.png"); 
+   }
+
+}
+@media (min-width:565px) and (max-width:700px) {
+   .carousel  {
+      margin: 10px auto;
+      width: 100%;
+   }
+   .carousel-wrapper {
+      margin: 10px 30px; 
+      overflow: hidden; 
+      position:relative;
+   }
+   .carousel-block {
+         float: left; 
+         width: auto;
+         padding: 10px 10px 10px 10px; 
+   }
+   .carousel-block img{
+      display:block;
+      height: 95px;
+   }
+   .carousel-button-left a, .carousel-button-right a{
+      top: 30px; 
+   }
+   .carousel-button-left:hover a, .carousel-button-right:hover a{
+      top: 30px; 
+   }
+   .carousel-button-left:hover a{float: left; 
+      background: asset_url("carousel-left_hover.png"); }
+   .carousel-button-right:hover a{float: right;
+      background: asset_url("carousel-right_hover.png"); }
+
+   .carousel-button-left a{
+      float: left; 
+      background: asset_url("carousel-left.png"); 
+   }
+   .carousel-button-right a{
+      float: right;
+      background: asset_url("carousel-right.png"); 
+   }
+}

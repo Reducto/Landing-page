@@ -1,0 +1,459 @@
+@media (min-width:1011px) and (max-width:1150px) {
+    .text {
+        position: absolute;
+        font-family: Garamond;
+        color: #EEEEEE; 
+        width: 80%;
+        top: 80px;
+        left: 80px;
+    }
+    .text span{
+        color: black;
+        font: bold 45px Helvetica, Sans-Serif;
+        background: #00BCCE;
+        padding: 5px 8px 5px 8px;
+    }
+    .text h4{
+         margin: 5px 0 0 0;
+         font-size: 40px;
+        font-weight: normal; 
+    }
+
+    .short-columns {
+        width: 85%;
+        margin: 0 5% 0 5%;
+    }   
+
+    .short-column-button img{
+        float: left;
+        background: #1199AA;
+        margin: 0 auto;
+        padding: 7px 10px;
+
+    }
+    .short-column-button { 
+        width: 90%;
+        height: 40px; 
+        color: #F2FBFC; 
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+        font-size: 14px;
+        font-weight: bold; 
+        padding: 7px 0 0 35px;  
+        margin: 20% 0 0 0;
+    }
+    #submit { 
+        margin: 0 0 0 1px;
+        width: 70%;
+        height: 40px; 
+        background: #33BBCC;
+        color: #F2FBFC; 
+        border: 1px solid #00BCCE;  
+        cursor: pointer; 
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+        font-size: 14px;
+        font-weight: bold;  
+        padding: 6px 10px;
+    }
+    .training-column-two input { 
+        width: 92%; 
+        background: none repeat scroll 0 0 #FFFFFF; 
+        border: 1px solid #C9C9C9;  
+        padding: 10px; 
+        font-size: 14px; 
+    }
+    .training-column-two h3 {
+        position: relative;
+        margin: 0 50px 20px 0;
+        color: #00BCCE;
+        font-size: 22px;
+    }
+    .training-columns {
+        margin: 0 50px;
+    }
+    .testimonies {
+        background:#FFFFFF;
+    }
+    .wrapp {
+        margin: 0 auto;
+        padding: 80px 0 80px 0;
+    }
+
+
+
+    .wrap {
+        margin: 0 2% 0 2%;
+    }
+    .advantage-name{
+        width: 100%;
+        margin: 0 auto;
+    }
+     .advantage-name h1{
+        color: #545454;
+        text-align: center;
+        font-size: 35px;
+    }
+    .advantage-columns {
+        margin: 0 20px;
+    }
+    .advantage-fix {
+        display: block;
+    }
+    .advantage-fix:after{
+        content: ".";
+        display: block;
+        clear: both;
+        visibility: hidden;
+        line-height: 0;
+        height: 0;
+        font-size: 0;
+    }
+
+    .advantage-column {
+        float: left;
+        width: 33.33%;
+        padding: 0 25px;
+        text-align: center;
+        font-size: 16px;
+        line-height: 20px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 80px 0 40px;
+    }
+
+    .advantage-column h3 {
+        position: relative;
+        margin: 50px 0 40px;
+    }
+
+
+    /*отзывы*/
+    .wr {
+        margin: 0 5% 0 5%;
+        padding: 10px 0 20px 0;
+        
+    }
+    .reviews-name{
+        width: 100%;
+        margin: 20px auto 40px 0 ;
+    }
+     .reviews-name h1{
+        color: #545454;
+        text-align: center;
+        font-size: 30px;
+    }
+    .reviews-columns {
+        width: 100%;
+        padding: 0 auto;
+        margin: 0 auto;
+    
+    }
+    .reviews-fix {
+        display: block;
+    }
+    .reviews-fix:after{
+        content: ".";
+        display: block;
+        clear: both;
+        visibility: hidden;
+        line-height: 0;
+        height: 0;
+        font-size: 0;
+    }
+    .reviews-column {
+        width: 100%; 
+        margin: 30px auto;
+
+    }
+    .reviews-column-one {
+        padding: 0 auto;
+        width: 20%;
+    }
+    .reviews-column-two {
+        float: left;
+        width: 65%;
+        padding: 0 5px 15px 5px;
+        text-align: left;
+        font-size: 12px;
+        line-height: 15px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .reviews-column-three {
+        padding: 0 auto;
+        width: 20%;
+    }
+    .reviews-column-four {
+        float: right;
+        width: 65%;
+        padding: 0 10px 15px 10px;
+        text-align: right;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .reviews-column h3 {
+        position: relative;
+        text-align: left;
+        font-size: 18px;
+        padding: 10px 0 0 0;
+    }
+    .reviews-column-four h3 {
+        position: relative;
+        text-align: right;
+        font-size: 18px;
+        padding: 10px 0 0 0;
+    }
+    .reviews-column p{
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .ico-bulb3 {
+        margin: 0 auto;
+        float: left;
+        background: asset_url("bubble_blue.png");
+    }
+    .ico-rocket3{
+        margin: 0 auto;
+        float: right;
+        background: asset_url("bubble_green.png");
+    }
+    .ico-flag3 {
+        margin: 0 auto;
+        float: left;
+        background: asset_url("bubble_red.png");
+    }
+}
+
+
+
+
+
+@media (min-width:1151px) and (max-width:1300px) {
+    .text {
+        position: absolute;
+        font-family: Garamond;
+        color: #EEEEEE; 
+        width: 80%;
+        top: 80px;
+        left: 80px;
+    }
+    .text span{
+        color: black;
+        font: bold 45px Helvetica, Sans-Serif;
+        background: #00BCCE;
+        padding: 5px 8px 5px 8px;
+    }
+    .text h4{
+         margin: 5px 0 0 0;
+         font-size: 40px;
+        font-weight: normal; 
+    }
+
+    .short-columns {
+        width: 85%;
+        margin: 0 5% 0 5%;
+    }   
+
+    .short-column-button img{
+        float: left;
+        background: #1199AA;
+        margin: 0 auto;
+        padding: 7px 10px;
+
+    }
+    .short-column-button { 
+        width: 90%;
+        height: 40px; 
+        color: #F2FBFC; 
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+        font-size: 14px;
+        font-weight: bold; 
+        padding: 7px 0 0 35px;  
+        margin: 20% 0 0 0;
+    }
+    #submit { 
+        margin: 0 0 0 1px;
+        width: 70%;
+        height: 40px; 
+        background: #33BBCC;
+        color: #F2FBFC; 
+        border: 1px solid #00BCCE;  
+        cursor: pointer; 
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+        font-size: 14px;
+        font-weight: bold;  
+        padding: 6px 10px;
+    }
+    .training-column-two input { 
+        width: 93%; 
+        background: none repeat scroll 0 0 #FFFFFF; 
+        border: 1px solid #C9C9C9;  
+        padding: 10px; 
+        font-size: 14px; 
+    }
+    .training-column-two h3 {
+        position: relative;
+        margin: 0 50px 20px 0;
+        color: #00BCCE;
+        font-size: 22px;
+    }
+    .training-columns {
+        margin: 0 50px;
+    }
+    .testimonies {
+        background:#FFFFFF;
+    }
+    .wrapp {
+        margin: 0 auto;
+        padding: 80px 0 80px 0;
+    }
+
+
+
+    .wrap {
+        margin: 0 2% 0 2%;
+    }
+    .advantage-name{
+        width: 100%;
+        margin: 0 auto;
+    }
+     .advantage-name h1{
+        color: #545454;
+        text-align: center;
+        font-size: 35px;
+    }
+    .advantage-columns {
+        margin: 0 20px;
+    }
+    .advantage-fix {
+        display: block;
+    }
+    .advantage-fix:after{
+        content: ".";
+        display: block;
+        clear: both;
+        visibility: hidden;
+        line-height: 0;
+        height: 0;
+        font-size: 0;
+    }
+
+    .advantage-column {
+        float: left;
+        width: 33.33%;
+        padding: 0 25px;
+        text-align: center;
+        font-size: 16px;
+        line-height: 20px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 80px 0 40px;
+    }
+
+    .advantage-column h3 {
+        position: relative;
+        margin: 50px 0 40px;
+    }
+
+
+    /*отзывы*/
+    .wr {
+        margin: 0 5% 0 5%;
+        padding: 10px 0 20px 0;
+        
+    }
+    .reviews-name{
+        width: 100%;
+        margin: 20px auto 40px 0 ;
+    }
+     .reviews-name h1{
+        color: #545454;
+        text-align: center;
+        font-size: 30px;
+    }
+    .reviews-columns {
+        width: 100%;
+        padding: 0 auto;
+        margin: 0 auto;
+    
+    }
+    .reviews-fix {
+        display: block;
+    }
+    .reviews-fix:after{
+        content: ".";
+        display: block;
+        clear: both;
+        visibility: hidden;
+        line-height: 0;
+        height: 0;
+        font-size: 0;
+    }
+    .reviews-column {
+        width: 100%; 
+        margin: 30px auto;
+
+    }
+    .reviews-column-one {
+        padding: 0 auto;
+        width: 20%;
+    }
+    .reviews-column-two {
+        float: left;
+        width: 65%;
+        padding: 0 5px 15px 5px;
+        text-align: left;
+        font-size: 12px;
+        line-height: 15px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .reviews-column-three {
+        padding: 0 auto;
+        width: 20%;
+    }
+    .reviews-column-four {
+        float: right;
+        width: 65%;
+        padding: 0 10px 15px 10px;
+        text-align: right;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .reviews-column h3 {
+        position: relative;
+        text-align: left;
+        font-size: 18px;
+        padding: 10px 0 0 0;
+    }
+    .reviews-column-four h3 {
+        position: relative;
+        text-align: right;
+        font-size: 18px;
+        padding: 10px 0 0 0;
+    }
+    .reviews-column p{
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .ico-bulb3 {
+        margin: 0 auto;
+        float: left;
+        background: asset_url("bubble_blue.png");
+    }
+    .ico-rocket3{
+        margin: 0 auto;
+        float: right;
+        background: asset_url("bubble_green.png");
+    }
+    .ico-flag3 {
+        margin: 0 auto;
+        float: left;
+        background: asset_url("bubble_red.png");
+    }
+}

@@ -1,0 +1,310 @@
+<div id="wrapper">
+   <div class="section maxw">
+     <header>
+       <div class="logo">
+         <a href="http://ripk.ru/">
+           <span class="logo-img"></span>
+        </a>   
+       </div>
+         <a href="tel:+78632098629" class="number">
+           <p> + 7 (863) 209-86-29</p>
+         </a>
+     </header>
+     <div class="separator"></div>
+     <div id="performance">
+       <article>
+         <img src="<%=asset_path('header-pic.png')%>"  alt="header-pic">
+         <div class="text">
+           <span> УЧЕБНЫЙ КУРС <br></span>
+           <h4>&laquo;Монтаж и измерения <br> на волоконно-оптических линиях передачи&raquo;</h4>
+         </div>
+       </article>
+     </div> 
+
+     <section class="training">
+       <div class="training-columns clearfix6">
+        <div class="training-name">
+           <h1 id="result" style="font-size: 14px; padding-top: 20px;"></h1>
+        </div>
+         <div class="training-column">
+           <h3>Пройдя обучение на нашем курсе, <br> 
+           Вы получите:</h3>
+           <ul>
+             <li>
+               <span>
+                   дополнительную квалификацию, которая позволит Вам существенно повысить свой профессиональный уровень;
+               </span>
+             </li>
+             <li>
+               <span>
+                   необходимые теоретические знания в области монтажа и изменений волоконно-оптических линий передачи;
+               </span>
+             </li>
+             <li>
+               <span>
+                   освоите принципы монтажа муфт и коммутационного-распределительного оборудования ВОЛП;
+               </span>
+             </li>
+             <li>
+               <span>
+                   практические навыки по работе  с монтажным, контрольно-измерительным оборудованием, а также инструментами применяемым при строительстве и эксплуатации волоконно-оптических линий свзи;
+               </span>
+             </li>
+             <li>
+               <span>
+                   свидетельство и сертификат Ростовского центра повышения квалификации, а также сертификаты на право монтажа компонентов производства ЗАО &laquo;Связьстройдеталь&raquo; и компании &laquo;ЗМ&raquo;.
+               </span>
+             </li>
+           </ul>
+         </div>
+         <div class="training-column-two">
+            <form onsubmit="validate(name.value, number.value, email.value, event)" id="send" name='comment' action="/send_mail" method='POST'>
+              <h3>Записаться на курс</h3>
+              <p>
+                <input id="name" type="text" name="name" value="" placeholder="&nbsp;Ваше имя" />
+                <span class="error">Не указано имя</span>
+              </p>
+              <p>
+                <input id="number" type="text" name="number" value="" placeholder="&nbsp;Телефон" />
+                <span class="error">Не указан номер телефона</span>
+              </p>
+              <p>
+                <input id="email" type="text" name="email" value="" placeholder="&nbsp;Эл. почта" />
+                <span class="error">Неверный email</span>
+              </p>       
+              <p>
+                <button id="submit" type="submit">Оставить заявку</button>
+              </p> 
+            </form>
+         </div>
+       </div>
+     </section>
+     
+     <section class="advantage">
+       <div class="wrap">
+         <div class="advantage-name">
+           <h1>Наши преимущества</h1>
+         </div>
+         <div class="advantage-columns advantage-fix">
+           <div class="advantage-column">
+             <span class="ico-bulb"></span>
+             <h3>Конкурентная цена</h3>
+             <p>Мы постоянно мониторим ценовую политику конкурентов и предлагаем оптимальное соотношение цена/качество в России.</p>
+           </div>
+           <div class="advantage-column">
+             <span class="ico-rocket"></span>
+             <h3>Высокое качество обучения</h3>
+             <p>Более 600 подготовленных специалистов. По окончанию курса выдаются сертификаты ведущих вендоров.</p>
+           </div>
+           <div class="advantage-column">
+             <span class="ico-flag"></span>
+             <h3>Ускоренное получение навыков</h3>
+             <p>Программа обучения оптимально отработана за 10 лет существования.</p>
+           </div>
+         </div>
+       </div>
+     </section>
+     <section class="short">
+       <div class="short-name">
+         <h1>Краткая программа курса</h1>
+       </div>
+       <div class="short-columns short-fix">
+         <div class="short-column">
+            <div class="carousel"> 
+            <div class="carousel-button-left"><a href=""></a></div> 
+            <div class="carousel-button-right"><a href=""></a></div> 
+               <div class="carousel-wrapper"> 
+                 <div class="carousel-items"> 
+                   <div class="carousel-block">
+                     <a class="fancybox-buttons-one" data-fancybox-group="button" href="<%=asset_path('fg_01.jpg')%>" ><img src="<%=asset_path('fg_sml_01.jpg')%>" alt="" /></a>
+                   </div>
+                   <div class="carousel-block">
+                     <a class="fancybox-buttons-one" data-fancybox-group="button" href="<%=asset_path('fg_02.jpg')%>" ><img src="<%=asset_path('fg_sml_02.jpg')%>" alt="" /></a>
+                   </div>
+                   <div class="carousel-block">
+                     <a class="fancybox-buttons-one" data-fancybox-group="button" href="<%=asset_path('fg_03.jpg')%>" ><img src="<%=asset_path('fg_sml_03.jpg')%>" alt="" /></a>
+                   </div>
+                   <div class="carousel-block">
+                     <a class="fancybox-buttons-one" data-fancybox-group="button" href="<%=asset_path('fg_04.jpg')%>" ><img src="<%=asset_path('fg_sml_04.jpg')%>" alt="" /></a>
+                   </div>
+                   <div class="carousel-block">
+                     <a class="fancybox-buttons-one" data-fancybox-group="button" href="<%=asset_path('fg_05.jpg')%>" ><img src="<%=asset_path('fg_sml_05.jpg')%>" alt="" /></a>
+                   </div>
+                   <div class="carousel-block">
+                     <a class="fancybox-buttons-one" data-fancybox-group="button" href="<%=asset_path('fg_06.jpg')%>" ><img src="<%=asset_path('fg_sml_06.jpg')%>" alt="" /></a>
+                   </div>
+                   <div class="carousel-block">
+                     <a class="fancybox-buttons-one" data-fancybox-group="button" href="<%=asset_path('fg_07.jpg')%>" ><img src="<%=asset_path('fg_sml_07.jpg')%>" alt="" /></a>
+                   </div>
+                   <div class="carousel-block">
+                     <a class="fancybox-buttons-one" data-fancybox-group="button" href="<%=asset_path('fg_08.jpg')%>" ><img src="<%=asset_path('fg_sml_08.jpg')%>" alt="" /></a>
+                   </div>
+                   <div class="carousel-block">
+                     <a class="fancybox-buttons-one" data-fancybox-group="button" href="<%=asset_path('fg_09.jpg')%>" ><img src="<%=asset_path('fg_sml_09.jpg')%>" alt="" /></a>
+                   </div>
+                 </div>
+              </div>
+           </div>
+         </div>
+         <div class="short-column">
+           <ul>
+             <li><span>История развития ВОЛП. Состояние и перспективы равития ВОЛП в России.
+             </span></li>
+             <li><span>Основы теории распространения света в ОВ.</span></li>
+             <li><span>Конструкция и классификация оптических волокон и кабелей. Обзор конструкций и маркировки оптических кабелей ведущих российских заводов-изготовителей.</span></li>
+             <li><span>Коммутационно-распределительные устройства, оптические разъёмные соединители.</span></li>
+             <li><span>Обзор оптических муфт производства ЗАО &laquo;Связьстройдеталь&raquo; и ЗМ, конструкция, характеристики.</span></li>
+             <li><span>Оборудование и инструменты, применяемые при монтаже оптического кабеля. Набор инструментов НИМ-25, НИМ-Эксперт, НИМ-Р.</span></li>
+             <li><span>Оборудование для сварки оптических волокон, принцип действия и характеристики. Сварочный аппарат Fujikura FSM-50S. Механические соединители. Практические занятия по монтажу оптических волокон с применением сварочных аппаратов Fujikura FSM-50S,FSM-17 S и механических соединителей FiberLock &#8545; 2529 (3M), SoreLink (AMP), UltraSplice.</span> </li>
+             <li><span>Техника безпасности при монтаже оптического кабеля.</span></li>
+             <li><span>Методика монтажа коммутационно распределительных устрйств и оптических муфт. Практические занятия по монтажу оптических муфт МТОК, МОГ (ЗАО &laquo;Связьстройдеталь&raquo;), муфты 2178, 2179 (ЗМ), оптических кроссов (ССД, ТКС).</span></li>
+             <li><span>Измерения ВОЛП. Практические занятия по работе с оптическим рефлектометром Yokogawa AQ 7260, источником оптическиго излучения Photom 362, измерителем оптический мощности Photom 211 A.</span></li>
+             <li><span>Проверка и определение места повреждения в монтажных и соединительных шнурах с помощью определителя повреждения волокна Photom 367 и ручного оптического микроскопа Westover FM-C400.</span></li>
+             <li><span>Исполнительная документация, оформляемая при сдаче ВОЛП в эксплуатацию.</span></li>
+             <a class="short-column-button" href="/description.doc">
+               <img src="<%=asset_path('arrow_download.png')%>" alt="arrow_download"/>
+               <button id="submit" type="submit">Скачать полную программу курса</button>
+             </a>
+           </ul>
+         </div>
+       </div>
+     </section>
+     <section class="course">
+       <div class="wrapper">
+         <div class="course-name">
+           <h1>Курс ведёт</h1>
+         </div>
+         <div class="course-columns course-fix">
+           <div class="course-column-ico">
+             <span class="ico-bulb1"></span>
+           </div>
+           <div class="course-column">
+             <h3>Комов Евгений Юрьевич</h3>
+             <p>Преподаватель высшей квалификационной категории, выпускник Южного-российского государственного университета экономики и сервиса.</p>
+             <p>Имеет 11-ти летний опыт работы в области волоконно-оптических сетей. Автор учебно-методических пособий, учебных видеокурсов посвященных монтажу и измерениям на волоконно-оптических линиях передачи.</p>
+             <p>За свою трудовую деятельность подготовил более 3000 специалистов в области телекоммуникаций.</p>
+           </div>
+         </div>
+       </div>
+     </section>
+     <section class="testimonies">
+       <div class="wrapp">
+         <div class="testimonies-name">
+           <h1>Свидетельства и сертификаты</h1>
+         </div>
+         <div class="testimonies-columns testimonies-fix">
+           <div class="testimonies-column">
+             <div class="carousel"> 
+               <div class="carousel-button-left"><a href=""></a></div> 
+               <div class="carousel-button-right"><a href=""></a></div> 
+                 <div class="carousel-wrapper"> 
+                   <div class="carousel-items"> 
+                     <div class="carousel-block">
+                       <a class="fancybox-buttons" data-fancybox-group="button" href="<%=asset_path('srt_01.jpg')%>" ><img src="<%=asset_path('srt_sml_01.jpg')%>" alt="" /></a>
+                     </div>
+                     <div class="carousel-block">
+                       <a class="fancybox-buttons" data-fancybox-group="button" href="<%=asset_path('srt_02.jpg')%>" ><img src="<%=asset_path('srt_sml_02.jpg')%>" alt="" /></a>
+                     </div>
+                     <div class="carousel-block">
+                       <a class="fancybox-buttons" data-fancybox-group="button" href="<%=asset_path('srt_03.jpg')%>" ><img src="<%=asset_path('srt_sml_03.jpg')%>" alt="" /></a>
+                     </div>
+                   </div>
+                 </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </section>
+
+     <section class="reviews">
+       <div class="wr">
+         <div class="reviews-name">
+           <h1>Отзывы наших выпускников</h1>
+         </div>
+         <div class="reviews-columns reviews-fix">
+           <div class="reviews-column">
+             <div class="reviews-column-one">
+               <span class="ico-bulb3"></span>
+             </div>
+             <div class="reviews-column-two">
+             <h3>Капралов Михаил Александрович</h3>
+               <p>&laquo;Благодарен в приобретении доп.квалификации в период обучения, реально ощущался профессионализм педагогического персонала. Желаю процветания и уверенного закрепления позиций в выбранном направлении&raquo;.</p>
+             </div>
+           </div>
+           <div class="reviews-column">
+             <div class="reviews-column-three">
+               <span class="ico-rocket3"></span>
+             </div>
+             <div class="reviews-column-four">
+             <h3>Юнусов Владислав Владимирович</h3>
+               <p>&laquo;Огромный объём полезной информации, доступное и поэтапное изложение с упором на современную материальную базу. Практические занятия с применением современной техники и расходных материалов&raquo;.</p>
+             </div>
+           </div>
+           <div class="reviews-column">
+             <div class="reviews-column-one">
+               <span class="ico-flag3"></span>
+             </div>
+             <div class="reviews-column-two">
+             <h3>Бибиков Илья Сергеевич</h3>
+               <p>&laquo;Отдельно хочу поблагодарить преподавателя Комова Е.Ю. за понятное и доступное разъяснение преподаваемого материала буквально &laquo;на пальцах&raquo;. Всё было понятно, просто и доступно. Спасибо, Евгений Юрьевич!&raquo;.</p>
+             </div>
+           </div>
+         </div>
+       </div>
+     </section>
+
+     <section class="cost">
+       <div class="cost-name">
+         <h1>Стоимость курса</h1>
+         <h2 id="result" style="font-size: 14px; padding-top: 20px;"></h1>
+       </div>
+       <div class="cost-columns cost-fix">
+         <div class="cost-column">
+           <span class="cost-img"></span>
+         </div>
+         <div class="cost-column-two">
+            <form onsubmit="validate(name.value, number.value, email.value, event)" id="send" name='comment' action="/send_mail" method='POST'>
+              <h3>Записаться на курс</h3>
+              <p>
+                <input id="name" type="text" name="name" value="" placeholder="&nbsp;Ваше имя" />
+                <span class="error">Не указано имя</span>
+              </p>
+              <p>
+                <input id="number" type="text" name="number" value="" placeholder="&nbsp;Телефон" />
+                <span class="error">Не указан номер телефона</span>
+              </p>
+              <p>
+                <input id="email" type="text" name="email" value="" placeholder="&nbsp;Эл. почта" />
+                <span class="error">Неверный email</span>
+              </p>       
+              <p>
+                <button id="submit" type="submit">Оставить заявку</button>
+              </p> 
+            </form>
+         </div>
+       </div>
+     </section>
+     <div class="map">
+      <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.ru/maps?f=q&amp;source=s_q&amp;hl=ru&amp;geocode=&amp;q=%D0%A0%D0%A6%D0%9F%D0%9A&amp;aq=&amp;sll=47.21556,39.704708&amp;sspn=0.004423,0.010225&amp;ie=UTF8&amp;hq=%D0%A0%D0%A6%D0%9F%D0%9A&amp;hnear=&amp;ll=47.21556,39.704708&amp;spn=0.004423,0.010225&amp;t=m&amp;output=embed"></iframe>
+     </div>   
+     <div class="separator"></div>
+     <footer>
+       <div class="logo">
+         <a href="http://ripk.ru/">
+           <span class="logo-img"></span>
+         </a> 
+       </div>
+       <div class="address">   
+         <p>г.Ростов-на-Дону, ул. Тургеневская, 10/6 
+         <br> 
+         +7 (863) 209-86-29, 243-91-04 
+         <br>e-mail:&nbsp;<a href="mailto:info@ripk.ru">info@ripk.ru</a></p>
+       </div>
+     </footer>      
+   </div>
+</div>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $().UItoTop({ easingType: 'easeOutQuart' });
+  });
+</script>

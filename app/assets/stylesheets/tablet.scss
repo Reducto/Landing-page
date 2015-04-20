@@ -1,0 +1,991 @@
+@media (min-width:710px) and (max-width:830px) {
+    /*голова и подвал*/
+    header{
+        min-height: 85px;
+    }
+    footer{
+        min-height: 90px;
+    }
+    .logo{
+        float: left;
+        margin: 2% 0 0 3% ;
+    }
+    .number{
+        float: right;
+        padding-left: 15%; 
+        font-size: 15px;
+        margin: 5% 3% 0 0;
+        font-family: HelveticaNeueCyr Light;  
+    }
+    .address{
+        float: right;
+        padding-left: 5%;
+        margin: 3% 0 0 0;
+        font-size: 12px;
+        font-family: HelveticaNeueCyr Light;  
+        
+    }
+    /*картинка*/
+    .text {
+        position: absolute;
+        font-family: Garamond;
+        color: #EEEEEE; 
+        width: 90%;
+        top: 30px;
+        left: 40px;
+    }
+    .text span{
+        color: black;
+        font: bold 35px Helvetica, Sans-Serif;
+        background: #00BCCE;
+        padding: 5px 8px 5px 8px;
+    }
+    .text h4{
+         margin: 5px 0 0 0;
+         font-size: 30px;
+        font-weight: normal; 
+    }
+    /*обучение*/
+    .training-columns {
+        margin: 0 40px 30px 40px;
+    }
+    .training-column {
+        float: left;
+        width: 65%;
+        padding: 0;
+        text-align: left;
+        line-height: 20px;
+        margin: 40px 0 0 0; 
+    }
+    .training-column  ul{
+        padding: 0 0 0 40px; 
+    }
+    .training-column  li{
+        line-height: 18px;
+        font-size: 15px; 
+        padding: 0 0 5px 0; 
+    }
+    .training-column h3 {
+        position: relative;
+        margin: 0 0 5px;
+        line-height: 20px;
+        font-size: 18px;
+    }
+    .training-column-two {
+        float: right;
+        padding: 0 0 0 0; 
+        width: 30%;
+        text-align: left;
+        margin: 40px 0 0 0;
+    }
+    .training-column-two input { 
+        width: 91%; 
+        background: none repeat scroll 0 0 #FFFFFF; 
+        border: 1px solid #C9C9C9;  
+        padding: 8px; 
+        font-size: 12px; 
+    }
+    .training-column-two p{
+        padding: 3px 0;
+    }
+    .training-column-two h3 {
+        position: relative;
+        margin: 0 0 10px 0;
+        color: #00BCCE;
+        font-size: 18px;
+    }
+    /*приемущества*/
+    .advantage{
+        position: relative;
+        margin: 0 auto;
+        height: auto !important;
+        height: 100%;
+        padding: 20px 0;
+        background: #EEEEEE;
+        display: block;
+        width: 100%;
+        position: relative;
+    }
+    .advantage:after{
+        display: block;
+        clear: both;
+        visibility: hidden;
+        line-height: 0;
+        height: 0;
+        font-size: 0;
+    }
+    .wrap {
+        margin: 0 4% 0 4%;
+    }
+    .advantage-name{
+        width: 100%;
+        margin: 0 auto;
+    }
+     .advantage-name h1{
+        color: #545454;
+        text-align: center;
+        font-size: 30px;
+        margin: 0 0 7% 0;
+    }
+    .advantage-columns {
+        margin: 0 5px 0 5px;
+    }
+    .advantage-fix {
+        display: block;
+    }
+    .advantage-fix:after{
+        content: ".";
+        display: block;
+        clear: both;
+        visibility: hidden;
+        line-height: 0;
+        height: 0;
+        font-size: 0;
+    }
+    .advantage-column {
+        float: left;
+        width: 100%;
+        padding: 0 auto;
+        text-align: center;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 5px 0 0;
+    }
+    .advantage-column h3{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .advantage-column h3 {
+        position: relative;
+        font-size: 25px;
+        margin: 25px 0 40px;
+    }
+    .ico-bulb,
+    .ico-rocket,
+    .ico-flag {
+        display: block;
+        margin: 0 0 10px 0;
+        float: left;
+        height: 160px;
+        width: 160px;
+        background-position: -200px 0;
+    }
+    .ico-bulb {
+        background: asset_url("adv_wallet.png");
+    }
+    .ico-rocket{
+        background: asset_url("adv_diploma.png");
+    }
+    .ico-flag {
+        background: asset_url("adv_rocket.png");
+    }
+
+    /*/////zzzzzzzzzzz///zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz///Краткая программа курса////////////////*/
+    
+
+
+
+   /* комов*/
+    .wrapper {
+        margin: 0 2% 0 2%;
+    }
+    .course-column-ico {
+        float: left;
+        width: 40%;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 70px 0 20px 0;
+    }
+    .course-name {
+        width: 100%;
+        padding: 20px 0 0 0;
+    }
+    .course-name h1{
+        color: #000000;
+        text-align: center;
+        padding: 0 auto;
+        font-size: 30px;
+    }
+    .course-column {
+        float: left;
+        width: 60%;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0 0 20px 0 ;
+        padding: 50px 0 0 40px;
+   
+    }
+    .course-column h3 {
+        position: relative;
+        font-size: 20px;
+        text-align: left;
+        margin: 0 0 20px 0;
+    }
+    .course-column p {
+        padding: 0 2% 10px 0;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .ico-bulb1{
+        display: block;
+        height: 279px;
+        width: 279px;
+        background-position: 20px 0;
+        background: asset_url("komov.png");
+    }
+
+
+
+
+
+    /*отзывы*/
+    .wr {
+        margin: 0 5% 0 5%;
+        padding: 10px 0 20px 0;
+        
+    }
+    .reviews-name{
+        width: 100%;
+        margin: 20px auto 40px 0 ;
+    }
+     .reviews-name h1{
+        color: #545454;
+        text-align: center;
+        font-size: 30px;
+    }
+    .reviews-columns {
+        width: 100%;
+        padding: 0 auto;
+        margin: 0 auto;
+    
+    }
+    .reviews-fix {
+        display: block;
+    }
+    .reviews-fix:after{
+        content: ".";
+        display: block;
+        clear: both;
+        visibility: hidden;
+        line-height: 0;
+        height: 0;
+        font-size: 0;
+    }
+    .reviews-column {
+        width: 100%; 
+        margin: 30px auto;
+
+    }
+    .reviews-column-one {
+        padding: 0 auto;
+    }
+    .reviews-column-two {
+        float: left;
+        width: 65%;
+        padding: 0 5px 15px 5px;
+        text-align: center;
+        font-size: 12px;
+        line-height: 15px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .reviews-column-three {
+        padding: 0 auto;
+    }
+    .reviews-column-four {
+        float: right;
+        width: 65%;
+        padding: 0 10px 15px 10px;
+        text-align: center;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .reviews-column h3 {
+        position: relative;
+        text-align: center;
+        font-size: 18px;
+        padding: 10px 0 0 0;
+    }
+    .reviews-column p{
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .ico-bulb3 {
+        margin: 0 auto;
+        float: left;
+        background: asset_url("bubble_blue.png");
+    }
+    .ico-rocket3{
+        margin: 0 auto;
+        float: right;
+        background: asset_url("bubble_green.png");
+    }
+    .ico-flag3 {
+        margin: 0 auto;
+        float: left;
+        background: asset_url("bubble_red.png");
+    }
+
+
+    /*стоимость*/
+    .cost{
+        margin: 0 auto;
+        padding:0;
+        width: 100%;
+    }
+    .cost-columns {
+        margin: 0 auto;
+        padding: 20px 0 20px 0 ;
+    }
+    .cost-name{
+        width: 100%;
+        padding: 20px 0 20px 0 ;
+    }
+    .cost-name h1{
+        color: #545454;
+        text-align: center;
+        font-size: 25px;
+    }
+    .cost-column {
+        width: 50%;
+        text-align: left;
+        padding: 0 0 0 5%;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 10px 0 10px;
+    }
+    .cost-img{
+        display: block;
+        width: 350px;
+        height: 240px;
+    }
+    .cost-img{
+        background: asset_url("cost_sm.jpg");
+    }
+    .cost-column-two {
+        float: right;
+        padding: 0 0 0 0; 
+        width: 35%;
+        text-align: left;
+        margin: 20px 20px 0 0;
+    }
+    .cost-column-two input { 
+        width: 92%; 
+        background: none repeat scroll 0 0 #FFFFFF; 
+        border: 1px solid #C9C9C9;  
+        padding: 9px; 
+        font-size: 12px; 
+    }
+    .cost-column-two p{
+        padding: 3px 0;
+    }
+    form #submit {  
+        margin: 5px 0 0 0;
+        width: 100%;   
+        background: #00BCCE;
+        color: #F2FBFC; 
+        border: 1px solid #00BCCE;  
+        cursor: pointer; 
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+        font-size: 16px;
+        font-weight: bold;  
+        padding: 8px 0 8px 0;
+    }
+    .cost-column-two h3 {
+        position: relative;
+        margin: 0 0 10px 0;
+        color: #00BCCE;
+        font-size: 20px;
+    }
+
+
+
+
+
+
+    /*///////////Краткая программа курса////////////////*/
+    .short{
+        padding: 10px 0;
+    }
+    .short-name{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .short-name h1{
+        color: #545454;
+        text-align: center;
+        font-size: 25px;
+    }
+    .short-columns {
+        width: 95%;
+        margin: 0 2% 0 2%;
+    }
+    .short-fix {
+        display: block;
+    }
+    .short-fix:after{
+        content: ".";
+        display: block;
+        clear: both;
+        visibility: hidden;
+        line-height: 0;
+        height: 0;
+        font-size: 0;
+    }
+    .short-column {
+        width: 100%;
+        padding: 0 20px;
+        text-align: left;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 20px 0 20px 0;
+    }
+    .short-column ul{
+        list-style-position: inside;
+        -moz-column-count:2; 
+        -webkit-column-count:2; 
+        column-count:2;
+        list-style-type:decimal;
+    }
+    .short-column li {
+        color: #00BCCE; 
+        font-size: 12px;
+        padding: 0 0 10px 0;    
+       }
+    .short-column span {
+        color: #5B5B5B; 
+    }
+
+    .short-column-button img{
+        float: left;
+        background: #1199AA;
+        margin: 0 auto;
+        padding: 7px 10px;
+
+    }
+    .short-column-button { 
+        width: 90%;
+        height: 40px; 
+        color: #F2FBFC; 
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+        font-weight: bold; 
+        padding: 7px 0; 
+        margin: 10% 0 0 0;
+        margin-left: 40px;
+    }
+    #submit { 
+        margin: 0 0 0 1px;
+        width: 75%;
+        height: 40px; 
+        background: #33BBCC;
+        color: #F2FBFC; 
+        border: 1px solid #00BCCE;  
+        cursor: pointer; 
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+        font-size: 11px;
+        font-weight: bold;  
+        padding: 6px 10px;
+    }
+
+
+}
+
+
+@media (min-width:831px) and (max-width:1010px) {
+    /*голова и подвал*/
+    header{
+        min-height: 85px;
+    }
+    footer{
+        min-height: 90px;
+    }
+    .logo{
+        float: left;
+        margin: 2% 0 0 3% ;
+    }
+    .number{
+        float: right;
+        padding-left: 15%; 
+        font-size: 15px;
+        margin: 4% 3% 0 0;
+        font-family: HelveticaNeueCyr Light;  
+    }
+    .address{
+        float: right;
+        padding-left: 5%;
+        margin: 3% 0 0 0;
+        font-size: 12px;
+        font-family: HelveticaNeueCyr Light;  
+        
+    }
+    /*картинка*/
+    .text {
+        position: absolute;
+        font-family: Garamond;
+        color: #EEEEEE; 
+        width: 90%;
+        top: 30px;
+        left: 40px;
+    }
+    .text span{
+        color: black;
+        font: bold 35px Helvetica, Sans-Serif;
+        background: #00BCCE;
+        padding: 5px 8px 5px 8px;
+    }
+    .text h4{
+         margin: 5px 0 0 0;
+         font-size: 30px;
+        font-weight: normal; 
+    }
+    /*обучение*/
+    .training-columns {
+        margin: 0 40px 30px 40px;
+    }
+    .training-column {
+        float: left;
+        width: 65%;
+        padding: 0;
+        text-align: left;
+        line-height: 20px;
+        margin: 40px 0 0 0; 
+    }
+    .training-column  ul{
+        padding: 0 0 0 40px; 
+    }
+    .training-column  li{
+        line-height: 18px;
+        font-size: 15px; 
+        padding: 0 0 5px 0; 
+    }
+    .training-column h3 {
+        position: relative;
+        margin: 0 0 5px;
+        line-height: 20px;
+        font-size: 18px;
+    }
+    .training-column-two {
+        float: right;
+        padding: 0 0 0 0; 
+        width: 30%;
+        text-align: left;
+        margin: 40px 0 0 0;
+    }
+    .training-column-two input { 
+        width: 93%; 
+        background: none repeat scroll 0 0 #FFFFFF; 
+        border: 1px solid #C9C9C9;  
+        padding: 8px; 
+        font-size: 12px; 
+    }
+    .training-column-two p{
+        padding: 3px 0;
+    }
+    .training-column-two h3 {
+        position: relative;
+        margin: 0 0 10px 0;
+        color: #00BCCE;
+        font-size: 18px;
+    }
+    /*приемущества*/
+    .advantage{
+        position: relative;
+        margin: 0 auto;
+        height: auto !important;
+        height: 100%;
+        padding: 20px 0;
+        background: #EEEEEE;
+        display: block;
+        width: 100%;
+        position: relative;
+    }
+    .advantage:after{
+        display: block;
+        clear: both;
+        visibility: hidden;
+        line-height: 0;
+        height: 0;
+        font-size: 0;
+    }
+    .wrap {
+        margin: 0 4% 0 4%;
+    }
+    .advantage-name{
+        width: 100%;
+        margin: 0 auto;
+    }
+     .advantage-name h1{
+        color: #545454;
+        text-align: center;
+        font-size: 30px;
+        margin: 0 0 7% 0;
+    }
+    .advantage-columns {
+        margin: 0 5px 0 5px;
+    }
+    .advantage-fix {
+        display: block;
+    }
+    .advantage-fix:after{
+        content: ".";
+        display: block;
+        clear: both;
+        visibility: hidden;
+        line-height: 0;
+        height: 0;
+        font-size: 0;
+    }
+    .advantage-column {
+        float: left;
+        width: 100%;
+        padding: 0 auto;
+        text-align: center;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 5px 0 0;
+    }
+    .advantage-column h3{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .advantage-column h3 {
+        position: relative;
+        font-size: 25px;
+        margin: 25px 0 40px;
+    }
+    .ico-bulb,
+    .ico-rocket,
+    .ico-flag {
+        display: block;
+        margin: 0 0 10px 0;
+        float: left;
+        height: 160px;
+        width: 160px;
+        background-position: -200px 0;
+    }
+    .ico-bulb {
+        background: asset_url("adv_wallet.png");
+    }
+    .ico-rocket{
+        background: asset_url("adv_diploma.png");
+    }
+    .ico-flag {
+        background: asset_url("adv_rocket.png");
+    }
+
+    /*/////zzzzzzzzzzz///zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz///Краткая программа курса////////////////*/
+    
+
+
+
+   /* комов*/
+    .wrapper {
+        margin: 0 2% 0 2%;
+    }
+    .course-column-ico {
+        float: left;
+        width: 40%;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 70px 0 20px 0;
+    }
+    .course-name {
+        width: 100%;
+        padding: 20px 0 0 0;
+    }
+    .course-name h1{
+        color: #000000;
+        text-align: center;
+        padding: 0 auto;
+        font-size: 30px;
+    }
+    .course-column {
+        float: left;
+        width: 60%;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0 0 20px 0 ;
+        padding: 50px 0 0 40px;
+   
+    }
+    .course-column h3 {
+        position: relative;
+        font-size: 20px;
+        text-align: left;
+        margin: 0 0 20px 0;
+    }
+    .course-column p {
+        padding: 0 2% 10px 0;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .ico-bulb1{
+        display: block;
+        height: 279px;
+        width: 279px;
+        background-position: 20px 0;
+        background: asset_url("komov.png");
+    }
+    /*отзывы*/
+    .wr {
+        margin: 0 5% 0 5%;
+        padding: 10px 0 20px 0;
+        
+    }
+    .reviews-name{
+        width: 100%;
+        margin: 20px auto 40px 0 ;
+    }
+     .reviews-name h1{
+        color: #545454;
+        text-align: center;
+        font-size: 30px;
+    }
+    .reviews-columns {
+        width: 100%;
+        padding: 0 auto;
+        margin: 0 auto;
+    
+    }
+    .reviews-fix {
+        display: block;
+    }
+    .reviews-fix:after{
+        content: ".";
+        display: block;
+        clear: both;
+        visibility: hidden;
+        line-height: 0;
+        height: 0;
+        font-size: 0;
+    }
+    .reviews-column {
+        width: 100%; 
+        margin: 30px auto;
+
+    }
+    .reviews-column-one {
+        padding: 0 auto;
+    }
+    .reviews-column-two {
+        float: left;
+        width: 65%;
+        padding: 0 5px 15px 5px;
+        text-align: center;
+        font-size: 12px;
+        line-height: 15px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .reviews-column-three {
+        padding: 0 auto;
+    }
+    .reviews-column-four {
+        float: right;
+        width: 65%;
+        padding: 0 10px 15px 10px;
+        text-align: center;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .reviews-column h3 {
+        position: relative;
+        text-align: center;
+        font-size: 18px;
+        padding: 10px 0 0 0;
+    }
+    .reviews-column p{
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .ico-bulb3 {
+        margin: 0 auto;
+        float: left;
+        background: asset_url("bubble_blue.png");
+    }
+    .ico-rocket3{
+        margin: 0 auto;
+        float: right;
+        background: asset_url("bubble_green.png");
+    }
+    .ico-flag3 {
+        margin: 0 auto;
+        float: left;
+        background: asset_url("bubble_red.png");
+    }
+    /*стоимость*/
+    .cost{
+        margin: 0 auto;
+        padding:0;
+        width: 100%;
+    }
+    .cost-columns {
+        margin: 0 auto;
+        padding: 20px 0 20px 0 ;
+    }
+    .cost-name{
+        width: 100%;
+        padding: 20px 0 20px 0 ;
+    }
+    .cost-name h1{
+        color: #545454;
+        text-align: center;
+        font-size: 25px;
+    }
+    .cost-column {
+        width: 50%;
+        text-align: left;
+        padding: 0 0 0 5%;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 10px 0 10px;
+    }
+    .cost-img{
+        display: block;
+        width: 350px;
+        height: 240px;
+    }
+    .cost-img{
+        background: asset_url("cost_sm.jpg");
+    }
+    .cost-column-two {
+        float: right;
+        padding: 0 0 0 0; 
+        width: 35%;
+        text-align: left;
+        margin: 20px 20px 0 0;
+    }
+    .cost-column-two input { 
+        width: 94%; 
+        background: none repeat scroll 0 0 #FFFFFF; 
+        border: 1px solid #C9C9C9;  
+        padding: 9px; 
+        font-size: 12px; 
+    }
+    .cost-column-two p{
+        padding: 3px 0;
+    }
+    form #submit {  
+        margin: 5px 0 0 0;
+        width: 100%;   
+        background: #00BCCE;
+        color: #F2FBFC; 
+        border: 1px solid #00BCCE;  
+        cursor: pointer; 
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+        font-size: 16px;
+        font-weight: bold;  
+        padding: 8px 0 8px 0;
+    }
+    .cost-column-two h3 {
+        position: relative;
+        margin: 0 0 10px 0;
+        color: #00BCCE;
+        font-size: 20px;
+    }
+
+
+
+
+
+
+    /*///////////Краткая программа курса////////////////*/
+    .short{
+        padding: 10px 0;
+    }
+    .short-name{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .short-name h1{
+        color: #545454;
+        text-align: center;
+        font-size: 25px;
+    }
+    .short-columns {
+        width: 95%;
+        margin: 0 2% 0 2%;
+    }
+    .short-fix {
+        display: block;
+    }
+    .short-fix:after{
+        content: ".";
+        display: block;
+        clear: both;
+        visibility: hidden;
+        line-height: 0;
+        height: 0;
+        font-size: 0;
+    }
+    .short-column {
+        width: 100%;
+        padding: 0 20px;
+        text-align: left;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 20px 0 20px 0;
+    }
+    .short-column ul{
+        list-style-position: inside;
+        -moz-column-count:2; 
+        -webkit-column-count:2; 
+        column-count:2;
+        list-style-type:decimal;
+    }
+    .short-column li {
+        color: #00BCCE; 
+        font-size: 12px;
+        padding: 0 0 10px 0;    
+       }
+    .short-column span {
+        color: #5B5B5B; 
+    }
+
+    .short-column-button img{
+        float: left;
+        background: #1199AA;
+        margin: 0 auto;
+        padding: 7px 10px;
+
+    }
+    .short-column-button { 
+        width: 90%;
+        height: 40px; 
+        color: #F2FBFC; 
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+        font-weight: bold; 
+        padding: 7px 0; 
+        margin: 10% 0 0 0;
+        margin-left: 40px;
+    }
+    #submit { 
+        margin: 0 0 0 1px;
+        width: 75%;
+        height: 40px; 
+        background: #33BBCC;
+        color: #F2FBFC; 
+        border: 1px solid #00BCCE;  
+        cursor: pointer; 
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+        font-size: 11px;
+        font-weight: bold;  
+        padding: 6px 10px;
+    }
+
+
+}

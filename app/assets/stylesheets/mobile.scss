@@ -1,0 +1,3354 @@
+@media (min-width:300px) and (max-width:351px) {
+     /* шапка, подвал*/
+    header{
+        width: 100%;
+        min-height: 65px;
+        padding: 0;
+    }
+    footer{
+        width: 100%;
+        min-height: 140px;
+        padding: 0;
+    }
+    .logo{
+        width: 100%;
+        text-align:center;
+        margin: 2% auto;
+    }
+    .logo-img{
+        display: block;
+        width: 300px;
+        height: 45px;
+    }
+    .logo-img{
+        background: asset_url("logo-sm.png");
+    }
+    .number{
+        width: 100%;        
+        color: #EEEEEE;
+        float: left;
+        margin: 0 auto;
+        font-size: 0.5px; 
+    }
+    .address{
+        width: 100%;
+        text-align:center;
+        font-size: 14px;
+        margin: 2% auto;
+        font-family: HelveticaNeueCyr Light;  
+    }
+    /*линия*/
+    .separator {
+        height: 2px;
+        background: #00BCCE;
+        clear: both;
+    }
+     /* картинка*/
+     #performance {
+         margin: 0 auto; 
+         height: 100%;
+         position: relative;
+         min-width: 300px;
+         max-width: 1920px;
+     }
+     #performance img {
+         width: 100%;
+         vertical-align:bottom;
+     }
+     .text {
+         position: absolute;
+         font-size: 10px;
+         font-family: Garamond;
+         color: #EEEEEE; 
+         width: 80%;
+         top: 12px;
+         left: 12px;
+     }
+     .text span{
+         color: black;
+         font: bold 10px Helvetica, Sans-Serif;
+         background: #00BCCE;
+         padding: 5px 8px 5px 8px;
+     }
+     .text h4{
+          margin: 5px 0 0 0;
+          font-size: 16px;
+         font-weight: normal; 
+     }
+     /*обучение*/
+     .training-columns {
+         margin: 0 10px;
+     }
+     .training-column {
+         float: left;
+         width: 100%;
+         padding: 0;
+         text-align: left;
+         margin: 20px 0 0 0;  
+     }
+     .training-column  ul{
+         padding: 0 0 0 40px; 
+     }
+     .training-column  li{
+         line-height: 16px;
+         font-size: 14px; 
+     }
+     .training-column h3 {
+         position: relative;
+         margin: 0 0 5px;
+         line-height: 18px;
+         font-size: 16px;
+     }
+
+     .training-column-two {
+          text-align: center;
+         padding: 0; 
+         width: 80%;
+         text-align: left;
+         margin: 2% 0 5% 0;
+         padding: 0 10% 0 10%;
+     }
+     .training-column-two input { 
+         width: 95%; 
+         background: none repeat scroll 0 0 #FFFFFF; 
+         border: 1px solid #C9C9C9;  
+         padding: 6px; 
+         font-size: 12px;  
+     }
+     .training-column-two p{
+         padding: 2% 0;
+     }
+     form #submit {  
+         margin: 3% 0 0 0;
+         width: 100%;    
+         background: #00BCCE;
+         color: #F2FBFC; 
+         border: 1px solid #00BCCE;  
+         cursor: pointer; 
+         font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+         font-size: 14px;
+         font-weight: bold;  
+         padding: 8px 0 8px 0;
+     }
+     .training-column-two h3 {
+         position: relative;
+         margin: 0 0 10px 0;
+         color: #00BCCE;
+         font-size: 18px;
+     }
+     /*приемущества*/
+     .advantage{
+         margin: 0 auto;
+         padding: 10px 0;
+         display: block;
+         width: 100%; 
+     }
+     .wrap {
+         margin: 0 auto;
+     }
+     .advantage-name{
+         width: 100%;
+         margin: 0 auto;
+     }
+      .advantage-name h1{
+         color: #545454;
+         text-align: center;
+         font-size: 25px;
+     }
+     .advantage-columns {
+         margin: 0 30px;;  
+     }
+     .advantage-column {
+         float: left;
+         width: 100%;
+         padding: 0 25px;
+         text-align: center;
+         line-height: 18px;
+         font-size: 15px;
+         -moz-box-sizing: border-box;
+         -webkit-box-sizing: border-box;
+         box-sizing: border-box;
+         margin: 10px 0 10px; 
+     }
+     .advantage-column h3 {
+         position: relative;
+         font-size: 18px;
+         margin: 0 0 10px;
+     }
+     .ico-bulb,
+     .ico-rocket,
+     .ico-flag {
+         display: block;
+         margin: 0 auto 10px;
+         height: 160px;
+         width: 160px;
+         background-position: -200px 0;
+     }
+     .ico-bulb {
+         background: asset_url("adv_wallet.png");
+     }
+     .ico-rocket{
+         background: asset_url("adv_diploma.png");
+     }
+     .ico-flag {
+         background: asset_url("adv_rocket.png");
+     }
+     /*краткая*/
+     .short{
+         padding: 20px 0;
+     }
+     .short-name{
+         width: 100%;
+         margin: 0 auto;
+     }
+     .short-name h1{
+         color: #545454;
+         text-align: center;
+         font-size: 20px;
+     }
+     .short-columns {
+         width: 100%;
+         margin: 0 auto;
+     }
+     .short-column {
+         width: 100%;
+         padding: 0 20px;
+         text-align: left;
+         -moz-box-sizing: border-box;
+         -webkit-box-sizing: border-box;
+         box-sizing: border-box;
+         margin: 10px 0 5px 0;
+     }
+     .short-column ul{
+         -moz-column-count:1; 
+         -webkit-column-count:1; 
+         column-count:1;
+         list-style-type:decimal;
+     }
+     .short-column li {
+         color: #00BCCE; 
+         padding: 0 0 10px 0;
+         margin-left: 35px;
+         font-size: 15px;
+        }
+     .short-column span {
+         color: #5B5B5B; 
+     }
+
+     .short-column-button img{
+         float: left;
+         background: #1199AA;
+         margin: 0 auto;
+         padding: 7px 10px;
+     }
+     .short-column-button { 
+         width: 90%;
+         height: 40px; 
+         color: #F2FBFC; 
+         font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+         font-size: 14px;
+         font-weight: bold; 
+         padding: 7px 0 0 35px; 
+         margin: 5% 0 0 0;
+         display: block;
+     }
+     #submit { 
+         margin: 0 0 0 1px;
+         width: 70%;
+         height: 40px; 
+         background: #33BBCC;
+         color: #F2FBFC; 
+         border: 1px solid #00BCCE;  
+         cursor: pointer; 
+         font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+         font-size: 12px;
+         font-weight: bold;  
+         padding: 6px 10px;
+     }
+     /*комов*/
+     .course {
+         margin: 0;
+         background:#00BCCE; 
+     }   
+     .wrapper {
+         width: 100%;
+         margin: 0 auto;
+     }
+     .course-columns {
+         margin: 0 auto;
+     }
+     .course-column-ico {
+         float: center;
+         width: 80%;
+         margin: 10px 10% 10px 10%;
+         text-align: center;
+     }
+     .course-name {
+         width: 100%;
+         float: center;
+         padding: 10px 0 0;
+     }
+     .course-name h1{
+         color: #000000;
+         padding: 0 0 0 35%;
+         font-size: 25px;
+     }
+     .course-column {
+         width: 100%;
+         -moz-box-sizing: border-box;
+         -webkit-box-sizing: border-box;
+         box-sizing: border-box;
+         margin: 0 0 30px 0 ;
+         padding: 0;
+     }
+     .course-column h3 {
+         position: relative;
+         font-size: 20px;
+         text-align: center;
+         margin: 0 0 20px 0;
+     }
+     .course-column p {
+         padding: 0 10% 15px 10%;
+         font-size: 18px;
+         line-height: 20px;
+     }
+     .ico-bulb1{
+         display: block;
+         height: 240px;
+         width: 240px;
+         background: asset_url("komov-sm.png");
+     }
+     /*сертификаты*/
+     .testimonies {
+         width: 100%;
+         background:#FFFFFF;
+     }
+     .wrapp {
+         width: 100%;
+         margin: 0 0 0;
+         padding: 30px 0 30px 0;
+     }
+     .testimonies-name{
+         width: 100%;
+         margin: 0 auto;
+     }
+      .testimonies-name h1{
+         color: #545454;
+         text-align: center;
+         font-size: 25px;
+     }
+     .testimonies-columns {
+         width: 90%; 
+         margin: 0 auto;
+     }
+     .testimonies-column {
+         width: 100%; 
+         margin: 0 auto;
+     }
+
+    /* отзывы*/
+     .wr {
+         width: 100%;
+         margin: 0 auto;
+         padding: 20px 0 20px 0;
+     }   
+     .reviews-name{
+         width: 100%;
+         margin: 0 auto;
+     }
+      .reviews-name h1{
+         color: #545454;
+         text-align: center;
+         font-size: 25px;
+     }
+     .reviews-columns {
+         padding: 0 auto;
+     }
+     .reviews-column {
+         margin: 20px auto;
+     }
+     .reviews-column-one {
+         width: 100%;
+     }
+     .reviews-column-two {
+         float: left;
+         width: 100%;
+         padding: 0 10px 15px 10px;
+         text-align: center;
+         font-size: 18px;
+         line-height: 20px;
+         -moz-box-sizing: border-box;
+         -webkit-box-sizing: border-box;
+         box-sizing: border-box;
+     }
+     .reviews-column-three {
+         width: 100%;
+     }
+     .reviews-column-four {
+         float: left;
+         width: 100%;
+         padding: 0 10px 15px 10px;
+         text-align: center;
+         font-size: 18px;
+         -moz-box-sizing: border-box;
+         -webkit-box-sizing: border-box;
+         box-sizing: border-box;
+     }
+     .reviews-column h3 {
+         position: relative;
+         text-align: center;
+         padding: 10px 0 0 0;
+         line-height: 25px;
+     }
+     .ico-bulb3 {
+         margin: 0 auto;
+         background: asset_url("bubble_blue.png");
+     }
+     .ico-rocket3{
+         margin: 0 auto;
+         background: asset_url("bubble_green.png");
+     }
+     .ico-flag3 {
+         margin: 0 auto;
+         background: asset_url("bubble_red.png");
+     }
+     /*стоимость*/
+     .cost{
+         margin: 0 auto;
+         padding:0;
+         width: 100%;
+     }
+     .cost-columns {
+         margin: 0 auto;
+     }
+     .cost-name{
+         width: 100%;
+         padding: 10px 0 5px 0 ;
+     }
+     .cost-name h1{
+         color: #545454;
+         text-align: center;
+         font-size: 25px;
+     }
+     .cost-column {
+        text-align: center;
+         padding: 0; 
+         width: 80%;
+         text-align: left;
+         margin: 2% 0 5% 0;
+         padding: 0 10% 0 10%;
+     }
+     .cost-img{
+         display: block;
+         width: 280px;
+         height: 187px;
+     }
+     .cost-img{
+         background: asset_url("cost-lit.png");
+     }
+      .cost-column-two {
+         text-align: center;
+         padding: 0; 
+         width: 80%;
+         text-align: left;
+         margin: 2% 0 5% 0;
+         padding: 0 10% 0 10%;
+     }
+     .cost-column-two input { 
+         width: 95%; 
+         background: none repeat scroll 0 0 #FFFFFF; 
+         border: 1px solid #C9C9C9;  
+         padding: 6px; 
+         font-size: 12px; 
+     }
+     .cost-column-two p{
+         padding: 2% 0;
+     }
+     form #submit {  
+         margin: 3% 0 0 0;
+         width: 100%;    
+         background: #00BCCE;
+         color: #F2FBFC; 
+         border: 1px solid #00BCCE;  
+         cursor: pointer; 
+         font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+         font-size: 14px;
+         font-weight: bold;  
+         padding: 8px 0 8px 0;
+     }
+     .cost-column-two h3 {
+         position: relative;
+         margin: 0 0 10px 0;
+         color: #00BCCE;
+         font-size: 18px;
+     }
+
+}
+
+
+@media (min-width:352px) and (max-width:390px) {
+   /* шапка, подвал*/
+    header{
+        width: 100%;
+        min-height: 75px;
+        padding: 0;
+    }
+    footer{
+        width: 100%;
+        min-height: 140px;
+        padding: 0;
+    }
+    .logo{
+        width: 100%;
+        text-align:center;
+        margin: 2% auto;
+    }
+    .number{
+        width: 100%;        
+        color: #EEEEEE;
+        float: left;
+        margin: 0 auto;
+        font-size: 1px;  
+    }
+    .address{
+        width: 100%;
+        text-align:center;
+        font-size: 14px;
+        margin: 2% auto;
+    }
+    /*линия*/
+    .separator {
+        height: 2px;
+        background: #00BCCE;
+        clear: both;
+    }
+    /* картинка*/
+    .text {
+        position: absolute;
+        font-size: 15px;
+        font-family: Garamond;
+        color: #EEEEEE; 
+        width: 75%;
+        top: 15px;
+        left: 20px;
+    }
+    .text span{
+        color: black;
+        font: bold 10px Helvetica, Sans-Serif;
+        background: #00BCCE;
+        padding: 5px 8px 5px 8px;
+    }
+    .text h4{
+         margin: 5px 0 0 0;
+         font-size: 15px;
+        font-weight: normal; 
+    }
+    /*обучение*/
+    .training-columns {
+        margin: 0 10px;
+    }
+    .training-column {
+        float: left;
+        width: 100%;
+        padding: 0;
+        text-align: left;
+        margin: 20px 0 0 0;  
+    }
+    .training-column  ul{
+        padding: 0 0 0 40px; 
+    }
+    .training-column  li{
+        line-height: 18px;
+        font-size: 16px; 
+    }
+    .training-column h3 {
+        position: relative;
+        margin: 0 0 5px;
+        line-height: 18px;
+        font-size: 18px;
+    }
+    .training-column-two {
+        text-align: center;
+         padding: 0; 
+         width: 80%;
+         text-align: left;
+         margin: 2% 0 5% 0;
+         padding: 0 10% 0 10%;
+    }
+    .training-column-two input { 
+       width: 95%; 
+         background: none repeat scroll 0 0 #FFFFFF; 
+         border: 1px solid #C9C9C9;  
+         padding: 6px; 
+         font-size: 12px;  
+    }
+    .training-column-two p{
+        padding: 2% 0;
+    }
+    form #submit {  
+        margin: 3% 0 0 0;
+        width: 100%;    
+        background: #00BCCE;
+        color: #F2FBFC; 
+        border: 1px solid #00BCCE;  
+        cursor: pointer; 
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+        font-size: 14px;
+        font-weight: bold;  
+        padding: 8px 0 8px 0;
+    }
+    .training-column-two h3 {
+        position: relative;
+        margin: 0 0 10px 0;
+        color: #00BCCE;
+        font-size: 18px;
+    }
+    /*приемущества*/
+    .advantage{
+        margin: 0 auto;
+        padding: 10px 0;
+        display: block;
+        width: 100%; 
+    }
+    .wrap {
+        margin: 0 auto;
+    }
+    .advantage-name{
+        width: 100%;
+        margin: 0 auto;
+    }
+     .advantage-name h1{
+        color: #545454;
+        text-align: center;
+        font-size: 25px;
+    }
+    .advantage-columns {
+        margin: 0 30px;;  
+    }
+    .advantage-column {
+        float: left;
+        width: 100%;
+        padding: 0 25px;
+        text-align: center;
+        line-height: 18px;
+        font-size: 15px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 10px 0 10px; 
+    }
+    .advantage-column h3 {
+        position: relative;
+        font-size: 18px;
+        margin: 0 0 10px;
+    }
+    .ico-bulb,
+    .ico-rocket,
+    .ico-flag {
+        display: block;
+        margin: 0 auto 10px;
+        height: 160px;
+        width: 160px;
+        background-position: -200px 0;
+    }
+    .ico-bulb {
+        background: asset_url("adv_wallet.png");
+    }
+    .ico-rocket{
+        background: asset_url("adv_diploma.png");
+    }
+    .ico-flag {
+        background: asset_url("adv_rocket.png");
+    }
+    /*краткая*/
+    .short{
+        padding: 20px 0;
+    }
+    .short-name{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .short-name h1{
+        color: #545454;
+        text-align: center;
+        font-size: 25px;
+    }
+    .short-columns {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .short-column {
+        width: 100%;
+        padding: 0 20px;
+        text-align: left;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 10px 0 5px 0;
+    }
+    .short-column ul{
+        -moz-column-count:1; 
+        -webkit-column-count:1; 
+        column-count:1;
+        list-style-type:decimal;
+    }
+    .short-column li {
+        color: #00BCCE; 
+        padding: 0 0 10px 0;
+        margin-left: 35px;
+        font-size: 15px;
+       }
+    .short-column span {
+        color: #5B5B5B; 
+    }
+
+    .short-column-button img{
+        float: left;
+        background: #1199AA;
+        margin: 0 auto;
+        padding: 7px 10px;
+    }
+    .short-column-button { 
+        width: 90%;
+        height: 40px; 
+        color: #F2FBFC; 
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+        font-size: 14px;
+        font-weight: bold; 
+        padding: 7px 0 0 35px; 
+        margin: 5% 0 0 0;
+        display: block;
+    }
+    #submit { 
+        margin: 0 0 0 1px;
+        width: 70%;
+        height: 40px; 
+        background: #33BBCC;
+        color: #F2FBFC; 
+        border: 1px solid #00BCCE;  
+        cursor: pointer; 
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+        font-size: 12px;
+        font-weight: bold;  
+        padding: 6px 10px;
+    }
+    /*комов*/
+    .course {
+        margin: 0;
+        background:#00BCCE; 
+    }   
+    .wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .course-columns {
+        margin: 0 auto;
+    }
+    .course-column-ico {
+        float: center;
+        width: 60%;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 10% 20% 10% 10%;
+    }
+    .course-name {
+        width: 100%;
+        float: center;
+        padding: 10px 0 0;
+    }
+    .course-name h1{
+        color: #000000;
+        padding: 0 0 0 35%;
+        font-size: 25px;
+    }
+    .course-column {
+        float: left;
+        width: 100%;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0 0 30px 0 ;
+        padding: 0;
+    }
+    .course-column h3 {
+        position: relative;
+        font-size: 25px;
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
+    .course-column p {
+        padding: 0 10% 15px 10%;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .ico-bulb1{
+        display: block;
+        height: 279px;
+        width: 279px;
+        background-position: 20px 0;
+        background: asset_url("komov.png");
+    }
+    /*сертификаты*/
+    .testimonies {
+        width: 100%;
+        background:#FFFFFF;
+    }
+    .wrapp {
+        width: 100%;
+        margin: 0 0 0;
+        padding: 30px 0 30px 0;
+    }
+    .testimonies-name{
+        width: 100%;
+        margin: 0 auto;
+    }
+     .testimonies-name h1{
+        color: #545454;
+        text-align: center;
+        font-size: 25px;
+    }
+    .testimonies-columns {
+        width: 90%; 
+        margin: 0 auto;
+    }
+    .testimonies-column {
+        width: 100%; 
+        margin: 0 auto;
+    }
+
+   /* отзывы*/
+    .wr {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 0 20px 0;
+    }   
+    .reviews-name{
+        width: 100%;
+        margin: 0 auto;
+    }
+     .reviews-name h1{
+        color: #545454;
+        text-align: center;
+        font-size: 25px;
+    }
+    .reviews-columns {
+        padding: 0 auto;
+    }
+    .reviews-column {
+        margin: 20px auto;
+    }
+    .reviews-column-one {
+        width: 100%;
+    }
+    .reviews-column-two {
+        float: left;
+        width: 100%;
+        padding: 0 10px 15px 10px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 20px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .reviews-column-three {
+        width: 100%;
+    }
+    .reviews-column-four {
+        float: left;
+        width: 100%;
+        padding: 0 10px 15px 10px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 20px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .reviews-column h3 {
+        position: relative;
+        text-align: center;
+        padding: 10px 0 0 0;
+    }
+
+    .ico-bulb3 {
+        margin: 0 auto;
+        background: asset_url("bubble_blue.png");
+    }
+    .ico-rocket3{
+        margin: 0 auto;
+        background: asset_url("bubble_green.png");
+    }
+    .ico-flag3 {
+        margin: 0 auto;
+        background: asset_url("bubble_red.png");
+    }
+    /*стоимость*/
+    .cost{
+        margin: 0 auto;
+        padding:0;
+        width: 100%;
+    }
+    .cost-columns {
+        margin: 0 auto;
+    }
+    .cost-name{
+        width: 100%;
+        padding: 10px 0 5px 0 ;
+    }
+    .cost-name h1{
+        color: #545454;
+        text-align: center;
+        font-size: 25px;
+    }
+    .cost-column {
+        text-align: center;
+         padding: 0; 
+         width: 80%;
+         text-align: left;
+         margin: 2% 0 5% 0;
+         padding: 0 10% 0 10%;
+    }
+    .cost-img{
+        display: block;
+        width: 280px;
+        height: 187px;
+    }
+    .cost-img{
+        background: asset_url("cost-lit.png");
+    }
+    .cost-column-two {
+        text-align: center;
+         padding: 0; 
+         width: 80%;
+         text-align: left;
+         margin: 2% 0 5% 0;
+         padding: 0 10% 0 10%;
+    }
+    .cost-column-two input { 
+        width: 95%; 
+         background: none repeat scroll 0 0 #FFFFFF; 
+         border: 1px solid #C9C9C9;  
+         padding: 6px; 
+         font-size: 12px;  
+    }
+    .cost-column-two p{
+        padding: 2% 0;
+    }
+    form #submit {  
+        margin: 3% 0 0 0;
+        width: 100%;    
+        background: #00BCCE;
+        color: #F2FBFC; 
+        border: 1px solid #00BCCE;  
+        cursor: pointer; 
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+        font-size: 14px;
+        font-weight: bold;  
+        padding: 8px 0 8px 0;
+    }
+    .cost-column-two h3 {
+        position: relative;
+        margin: 0 0 10px 0;
+        color: #00BCCE;
+        font-size: 18px;
+    }
+
+  
+}
+
+
+
+@media (min-width:391px) and (max-width:440px) {
+   /* шапка, подвал*/
+    header{
+        width: 100%;
+        min-height: 75px;
+        padding: 0;
+    }
+    footer{
+        width: 100%;
+        min-height: 140px;
+        padding: 0;
+    }
+    .logo{
+        width: 100%;
+        text-align:center;
+        margin: 2% auto;
+    }
+    .number{
+        width: 100%;        
+        color: #EEEEEE;
+        float: left;
+        margin: 0 auto;
+        font-size: 1px;  
+    }
+    .address{
+        width: 100%;
+        text-align:center;
+        font-size: 14px;
+        margin: 2% auto;
+    }
+    /*линия*/
+    .separator {
+        height: 2px;
+        background: #00BCCE;
+        clear: both;
+    }
+    /* картинка*/
+    .text {
+        position: absolute;
+        font-size: 25px;
+        font-family: Garamond;
+        color: #EEEEEE; 
+        width: 75%;
+        top: 15px;
+        left: 20px;
+    }
+    .text span{
+        color: black;
+        font: bold 15px Helvetica, Sans-Serif;
+        background: #00BCCE;
+        padding: 5px 8px 5px 8px;
+    }
+    .text h4{
+         margin: 5px 0 0 0;
+         font-size: 16px;
+        font-weight: normal; 
+    }
+    /*обучение*/
+    .training-columns {
+        margin: 0 10px;
+    }
+    .training-column {
+        float: left;
+        width: 100%;
+        padding: 0;
+        text-align: left;
+        margin: 20px 0 0 0;  
+    }
+    .training-column  ul{
+        padding: 0 0 0 40px; 
+    }
+    .training-column  li{
+        line-height: 18px;
+        font-size: 16px; 
+    }
+    .training-column h3 {
+        position: relative;
+        margin: 0 0 5px;
+        line-height: 18px;
+        font-size: 18px;
+    }
+    .training-column-two {
+        text-align: center;
+         padding: 0; 
+         width: 80%;
+         text-align: left;
+         margin: 2% 0 5% 0;
+         padding: 0 10% 0 10%;
+    }
+    .training-column-two input { 
+       width: 95%; 
+         background: none repeat scroll 0 0 #FFFFFF; 
+         border: 1px solid #C9C9C9;  
+         padding: 6px; 
+         font-size: 12px;  
+    }
+    .training-column-two p{
+        padding: 2% 0;
+    }
+    form #submit {  
+        margin: 3% 0 0 0;
+        width: 100%;    
+        background: #00BCCE;
+        color: #F2FBFC; 
+        border: 1px solid #00BCCE;  
+        cursor: pointer; 
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+        font-size: 14px;
+        font-weight: bold;  
+        padding: 8px 0 8px 0;
+    }
+    .training-column-two h3 {
+        position: relative;
+        margin: 0 0 10px 0;
+        color: #00BCCE;
+        font-size: 18px;
+    }
+    /*приемущества*/
+    .advantage{
+        margin: 0 auto;
+        padding: 10px 0;
+        display: block;
+        width: 100%; 
+    }
+    .wrap {
+        margin: 0 auto;
+    }
+    .advantage-name{
+        width: 100%;
+        margin: 0 auto;
+    }
+     .advantage-name h1{
+        color: #545454;
+        text-align: center;
+        font-size: 25px;
+    }
+    .advantage-columns {
+        margin: 0 30px;;  
+    }
+    .advantage-column {
+        float: left;
+        width: 100%;
+        padding: 0 25px;
+        text-align: center;
+        line-height: 18px;
+        font-size: 15px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 10px 0 10px; 
+    }
+    .advantage-column h3 {
+        position: relative;
+        font-size: 18px;
+        margin: 0 0 10px;
+    }
+    .ico-bulb,
+    .ico-rocket,
+    .ico-flag {
+        display: block;
+        margin: 0 auto 10px;
+        height: 160px;
+        width: 160px;
+        background-position: -200px 0;
+    }
+    .ico-bulb {
+        background: asset_url("adv_wallet.png");
+    }
+    .ico-rocket{
+        background: asset_url("adv_diploma.png");
+    }
+    .ico-flag {
+        background: asset_url("adv_rocket.png");
+    }
+    /*краткая*/
+    .short{
+        padding: 20px 0;
+    }
+    .short-name{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .short-name h1{
+        color: #545454;
+        text-align: center;
+        font-size: 25px;
+    }
+    .short-columns {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .short-column {
+        width: 100%;
+        padding: 0 20px;
+        text-align: left;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 10px 0 5px 0;
+    }
+    .short-column ul{
+        -moz-column-count:1; 
+        -webkit-column-count:1; 
+        column-count:1;
+        list-style-type:decimal;
+    }
+    .short-column li {
+        color: #00BCCE; 
+        padding: 0 0 10px 0;
+        margin-left: 35px;
+        font-size: 15px;
+       }
+    .short-column span {
+        color: #5B5B5B; 
+    }
+
+    .short-column-button img{
+        float: left;
+        background: #1199AA;
+        margin: 0 auto;
+        padding: 7px 10px;
+    }
+    .short-column-button { 
+        width: 90%;
+        height: 40px; 
+        color: #F2FBFC; 
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+        font-size: 14px;
+        font-weight: bold; 
+        padding: 7px 0 0 35px; 
+        margin: 5% 0 0 0;
+        display: block;
+    }
+    #submit { 
+        margin: 0 0 0 1px;
+        width: 70%;
+        height: 40px; 
+        background: #33BBCC;
+        color: #F2FBFC; 
+        border: 1px solid #00BCCE;  
+        cursor: pointer; 
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+        font-size: 12px;
+        font-weight: bold;  
+        padding: 6px 10px;
+    }
+    /*комов*/
+    .course {
+        margin: 0;
+        background:#00BCCE; 
+    }   
+    .wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .course-columns {
+        margin: 0 auto;
+    }
+    .course-column-ico {
+        float: center;
+        width: 60%;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 10% 20% 10% 15%;
+    }
+    .course-name {
+        width: 100%;
+        float: center;
+        padding: 10px 0 0;
+    }
+    .course-name h1{
+        color: #000000;
+        padding: 0 0 0 35%;
+        font-size: 25px;
+    }
+    .course-column {
+        float: left;
+        width: 100%;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0 0 30px 0 ;
+        padding: 0;
+    }
+    .course-column h3 {
+        position: relative;
+        font-size: 25px;
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
+    .course-column p {
+        padding: 0 10% 15px 10%;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .ico-bulb1{
+        display: block;
+        height: 279px;
+        width: 279px;
+        background-position: 20px 0;
+        background: asset_url("komov.png");
+    }
+    /*сертификаты*/
+    .testimonies {
+        width: 100%;
+        background:#FFFFFF;
+    }
+    .wrapp {
+        width: 100%;
+        margin: 0 0 0;
+        padding: 30px 0 30px 0;
+    }
+    .testimonies-name{
+        width: 100%;
+        margin: 0 auto;
+    }
+     .testimonies-name h1{
+        color: #545454;
+        text-align: center;
+        font-size: 25px;
+    }
+    .testimonies-columns {
+        width: 90%; 
+        margin: 0 auto;
+    }
+    .testimonies-column {
+        width: 100%; 
+        margin: 0 auto;
+    }
+
+   /* отзывы*/
+    .wr {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 0 20px 0;
+    }   
+    .reviews-name{
+        width: 100%;
+        margin: 0 auto;
+    }
+     .reviews-name h1{
+        color: #545454;
+        text-align: center;
+        font-size: 25px;
+    }
+    .reviews-columns {
+        padding: 0 auto;
+    }
+    .reviews-column {
+        margin: 20px auto;
+    }
+    .reviews-column-one {
+        width: 100%;
+    }
+    .reviews-column-two {
+        float: left;
+        width: 100%;
+        padding: 0 10px 15px 10px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 20px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .reviews-column-three {
+        width: 100%;
+    }
+    .reviews-column-four {
+        float: left;
+        width: 100%;
+        padding: 0 10px 15px 10px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 20px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .reviews-column h3 {
+        position: relative;
+        text-align: center;
+        padding: 10px 0 0 0;
+    }
+
+    .ico-bulb3 {
+        margin: 0 auto;
+        background: asset_url("bubble_blue.png");
+    }
+    .ico-rocket3{
+        margin: 0 auto;
+        background: asset_url("bubble_green.png");
+    }
+    .ico-flag3 {
+        margin: 0 auto;
+        background: asset_url("bubble_red.png");
+    }
+    /*стоимость*/
+    .cost{
+        margin: 0 auto;
+        padding:0;
+        width: 100%;
+    }
+    .cost-columns {
+        margin: 0 auto;
+    }
+    .cost-name{
+        width: 100%;
+        padding: 10px 0 5px 0 ;
+    }
+    .cost-name h1{
+        color: #545454;
+        text-align: center;
+        font-size: 25px;
+    }
+    .cost-column {
+        text-align: center;
+         padding: 0; 
+         width: 80%;
+         text-align: left;
+         margin: 2% 0 5% 0;
+         padding: 0 10% 0 5%;
+    }
+    .cost-img{
+        display: block;
+        width: 350px;
+        height: 233px;
+    }
+    .cost-img{
+        background: asset_url("cost_sm.jpg");
+    }
+    .cost-column-two {
+        text-align: center;
+         padding: 0; 
+         width: 80%;
+         text-align: left;
+         margin: 2% 0 5% 0;
+         padding: 0 10% 0 10%;
+    }
+    .cost-column-two input { 
+        width: 95%; 
+         background: none repeat scroll 0 0 #FFFFFF; 
+         border: 1px solid #C9C9C9;  
+         padding: 6px; 
+         font-size: 12px;  
+    }
+    .cost-column-two p{
+        padding: 2% 0;
+    }
+    form #submit {  
+        margin: 3% 0 0 0;
+        width: 100%;    
+        background: #00BCCE;
+        color: #F2FBFC; 
+        border: 1px solid #00BCCE;  
+        cursor: pointer; 
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+        font-size: 14px;
+        font-weight: bold;  
+        padding: 8px 0 8px 0;
+    }
+    .cost-column-two h3 {
+        position: relative;
+        margin: 0 0 10px 0;
+        color: #00BCCE;
+        font-size: 18px;
+    }
+
+  
+}
+
+
+
+
+@media (min-width:441px) and (max-width:500px) {
+   /* шапка, подвал*/
+    header{
+        width: 100%;
+        min-height: 75px;
+        padding: 0;
+    }
+    footer{
+        width: 100%;
+        min-height: 140px;
+        padding: 0;
+    }
+    .logo{
+        width: 100%;
+        text-align:center;
+        margin: 2% auto;
+    }
+    .number{
+        width: 100%;        
+        color: #EEEEEE;
+        float: left;
+        margin: 0 auto;
+        font-size: 1px;  
+    }
+    .address{
+        width: 100%;
+        text-align:center;
+        font-size: 14px;
+        margin: 2% auto;
+    }
+    /*линия*/
+    .separator {
+        height: 2px;
+        background: #00BCCE;
+        clear: both;
+    }
+    /* картинка*/
+    .text {
+        position: absolute;
+        font-size: 25px;
+        font-family: Garamond;
+        color: #EEEEEE; 
+        width: 75%;
+        top: 15px;
+        left: 20px;
+    }
+    .text span{
+        color: black;
+        font: bold 15px Helvetica, Sans-Serif;
+        background: #00BCCE;
+        padding: 5px 8px 5px 8px;
+    }
+    .text h4{
+         margin: 5px 0 0 0;
+         font-size: 20px;
+        font-weight: normal; 
+    }
+    /*обучение*/
+    .training-columns {
+        margin: 0 10px;
+    }
+    .training-column {
+        float: left;
+        width: 100%;
+        padding: 0;
+        text-align: left;
+        margin: 20px 0 0 0;  
+    }
+    .training-column  ul{
+        padding: 0 0 0 40px; 
+    }
+    .training-column  li{
+        line-height: 18px;
+        font-size: 16px; 
+    }
+    .training-column h3 {
+        position: relative;
+        margin: 0 0 5px;
+        line-height: 18px;
+        font-size: 18px;
+    }
+    .training-column-two {
+        text-align: center;
+         padding: 0; 
+         width: 80%;
+         text-align: left;
+         margin: 2% 0 5% 0;
+         padding: 0 10% 0 10%;
+    }
+    .training-column-two input { 
+       width: 95%; 
+         background: none repeat scroll 0 0 #FFFFFF; 
+         border: 1px solid #C9C9C9;  
+         padding: 6px; 
+         font-size: 12px;  
+    }
+    .training-column-two p{
+        padding: 2% 0;
+    }
+    form #submit {  
+        margin: 3% 0 0 0;
+        width: 100%;    
+        background: #00BCCE;
+        color: #F2FBFC; 
+        border: 1px solid #00BCCE;  
+        cursor: pointer; 
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+        font-size: 14px;
+        font-weight: bold;  
+        padding: 8px 0 8px 0;
+    }
+    .training-column-two h3 {
+        position: relative;
+        margin: 0 0 10px 0;
+        color: #00BCCE;
+        font-size: 18px;
+    }
+    /*приемущества*/
+    .advantage{
+        margin: 0 auto;
+        padding: 10px 0;
+        display: block;
+        width: 100%; 
+    }
+    .wrap {
+        margin: 0 auto;
+    }
+    .advantage-name{
+        width: 100%;
+        margin: 0 auto;
+    }
+     .advantage-name h1{
+        color: #545454;
+        text-align: center;
+        font-size: 25px;
+    }
+    .advantage-columns {
+        margin: 0 30px;;  
+    }
+    .advantage-column {
+        float: left;
+        width: 100%;
+        padding: 0 25px;
+        text-align: center;
+        line-height: 18px;
+        font-size: 15px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 10px 0 10px; 
+    }
+    .advantage-column h3 {
+        position: relative;
+        font-size: 18px;
+        margin: 0 0 10px;
+    }
+    .ico-bulb,
+    .ico-rocket,
+    .ico-flag {
+        display: block;
+        margin: 0 auto 10px;
+        height: 160px;
+        width: 160px;
+        background-position: -200px 0;
+    }
+    .ico-bulb {
+        background: asset_url("adv_wallet.png");
+    }
+    .ico-rocket{
+        background: asset_url("adv_diploma.png");
+    }
+    .ico-flag {
+        background: asset_url("adv_rocket.png");
+    }
+    /*краткая*/
+    .short{
+        padding: 20px 0;
+    }
+    .short-name{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .short-name h1{
+        color: #545454;
+        text-align: center;
+        font-size: 25px;
+    }
+    .short-columns {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .short-column {
+        width: 100%;
+        padding: 0 20px;
+        text-align: left;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 10px 0 5px 0;
+    }
+    .short-column ul{
+        -moz-column-count:1; 
+        -webkit-column-count:1; 
+        column-count:1;
+        list-style-type:decimal;
+    }
+    .short-column li {
+        color: #00BCCE; 
+        padding: 0 0 10px 0;
+        margin-left: 35px;
+        font-size: 15px;
+       }
+    .short-column span {
+        color: #5B5B5B; 
+    }
+
+    .short-column-button img{
+        float: left;
+        background: #1199AA;
+        margin: 0 auto;
+        padding: 7px 10px;
+    }
+    .short-column-button { 
+        width: 90%;
+        height: 40px; 
+        color: #F2FBFC; 
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+        font-size: 14px;
+        font-weight: bold; 
+        padding: 7px 0 0 35px; 
+        margin: 5% 0 0 0;
+        display: block;
+    }
+    #submit { 
+        margin: 0 0 0 1px;
+        width: 70%;
+        height: 40px; 
+        background: #33BBCC;
+        color: #F2FBFC; 
+        border: 1px solid #00BCCE;  
+        cursor: pointer; 
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+        font-size: 12px;
+        font-weight: bold;  
+        padding: 6px 10px;
+    }
+    /*комов*/
+    .course {
+        margin: 0;
+        background:#00BCCE; 
+    }   
+    .wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .course-columns {
+        margin: 0 auto;
+    }
+    .course-column-ico {
+        float: center;
+        width: 60%;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 10% 20% 10% 15%;
+    }
+    .course-name {
+        width: 100%;
+        float: center;
+        padding: 10px 0 0;
+    }
+    .course-name h1{
+        color: #000000;
+        padding: 0 0 0 35%;
+        font-size: 25px;
+    }
+    .course-column {
+        float: left;
+        width: 100%;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0 0 30px 0 ;
+        padding: 0;
+    }
+    .course-column h3 {
+        position: relative;
+        font-size: 25px;
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
+    .course-column p {
+        padding: 0 10% 15px 10%;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .ico-bulb1{
+        display: block;
+        height: 279px;
+        width: 279px;
+        background-position: 20px 0;
+        background: asset_url("komov.png");
+    }
+    /*сертификаты*/
+    .testimonies {
+        width: 100%;
+        background:#FFFFFF;
+    }
+    .wrapp {
+        width: 100%;
+        margin: 0 0 0;
+        padding: 30px 0 30px 0;
+    }
+    .testimonies-name{
+        width: 100%;
+        margin: 0 auto;
+    }
+     .testimonies-name h1{
+        color: #545454;
+        text-align: center;
+        font-size: 25px;
+    }
+    .testimonies-columns {
+        width: 90%; 
+        margin: 0 auto;
+    }
+    .testimonies-column {
+        width: 100%; 
+        margin: 0 auto;
+    }
+
+   /* отзывы*/
+    .wr {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 0 20px 0;
+    }   
+    .reviews-name{
+        width: 100%;
+        margin: 0 auto;
+    }
+     .reviews-name h1{
+        color: #545454;
+        text-align: center;
+        font-size: 25px;
+    }
+    .reviews-columns {
+        padding: 0 auto;
+    }
+    .reviews-column {
+        margin: 20px auto;
+    }
+    .reviews-column-one {
+        width: 100%;
+    }
+    .reviews-column-two {
+        float: left;
+        width: 100%;
+        padding: 0 10px 15px 10px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 20px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .reviews-column-three {
+        width: 100%;
+    }
+    .reviews-column-four {
+        float: left;
+        width: 100%;
+        padding: 0 10px 15px 10px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 20px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .reviews-column h3 {
+        position: relative;
+        text-align: center;
+        padding: 10px 0 0 0;
+    }
+
+    .ico-bulb3 {
+        margin: 0 auto;
+        background: asset_url("bubble_blue.png");
+    }
+    .ico-rocket3{
+        margin: 0 auto;
+        background: asset_url("bubble_green.png");
+    }
+    .ico-flag3 {
+        margin: 0 auto;
+        background: asset_url("bubble_red.png");
+    }
+    /*стоимость*/
+    .cost{
+        margin: 0 auto;
+        padding:0;
+        width: 100%;
+    }
+    .cost-columns {
+        margin: 0 auto;
+    }
+    .cost-name{
+        width: 100%;
+        padding: 10px 0 5px 0 ;
+    }
+    .cost-name h1{
+        color: #545454;
+        text-align: center;
+        font-size: 25px;
+    }
+    .cost-column {
+        text-align: center;
+         padding: 0; 
+         width: 80%;
+         text-align: left;
+         margin: 2% 0 5% 0;
+         padding: 0 10% 0 12%;
+    }
+    .cost-img{
+        display: block;
+        width: 350px;
+        height: 233px;
+    }
+    .cost-img{
+        background: asset_url("cost_sm.jpg");
+    }
+    .cost-column-two {
+        text-align: center;
+         padding: 0; 
+         width: 80%;
+         text-align: left;
+         margin: 2% 0 5% 0;
+         padding: 0 10% 0 10%;
+    }
+    .cost-column-two input { 
+        width: 95%; 
+         background: none repeat scroll 0 0 #FFFFFF; 
+         border: 1px solid #C9C9C9;  
+         padding: 6px; 
+         font-size: 12px;  
+    }
+    .cost-column-two p{
+        padding: 2% 0;
+    }
+    form #submit {  
+        margin: 3% 0 0 0;
+        width: 100%;    
+        background: #00BCCE;
+        color: #F2FBFC; 
+        border: 1px solid #00BCCE;  
+        cursor: pointer; 
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+        font-size: 14px;
+        font-weight: bold;  
+        padding: 8px 0 8px 0;
+    }
+    .cost-column-two h3 {
+        position: relative;
+        margin: 0 0 10px 0;
+        color: #00BCCE;
+        font-size: 18px;
+    }
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:501px) and (max-width:560px) {
+   /* шапка, подвал*/
+    header{
+        width: 100%;
+        min-height: 75px;
+        padding: 0;
+    }
+    footer{
+        width: 100%;
+        min-height: 140px;
+        padding: 0;
+    }
+    .logo{
+        width: 100%;
+        margin: 2% 0 0 15%;
+    }
+    .number{
+        width: 100%;        
+        color: #EEEEEE;
+        float: left;
+        margin: 0 auto;
+        font-size: 1px;  
+    }
+    .address{
+        width: 100%;
+        text-align:center;
+        font-size: 14px;
+        margin: 2% auto;
+    }
+    /*линия*/
+    .separator {
+        height: 2px;
+        background: #00BCCE;
+        clear: both;
+    }
+    /* картинка*/
+    .text {
+        position: absolute;
+        font-size: 25px;
+        font-family: Garamond;
+        color: #EEEEEE; 
+        width: 75%;
+        top: 25px;
+        left: 20px;
+    }
+    .text span{
+        color: black;
+        font: bold 15px Helvetica, Sans-Serif;
+        background: #00BCCE;
+        padding: 5px 8px 5px 8px;
+    }
+    .text h4{
+         margin: 5px 0 0 0;
+         font-size: 20px;
+        font-weight: normal; 
+    }
+    /*обучение*/
+    .training-columns {
+        margin: 0 10px;
+    }
+    .training-column {
+        float: left;
+        width: 100%;
+        padding: 0;
+        text-align: left;
+        margin: 20px 0 0 0;  
+    }
+    .training-column  ul{
+        padding: 0 0 0 40px; 
+    }
+    .training-column  li{
+        line-height: 18px;
+        font-size: 16px; 
+    }
+    .training-column h3 {
+        position: relative;
+        margin: 0 0 5px;
+        line-height: 18px;
+        font-size: 18px;
+    }
+    .training-column-two {
+        text-align: center;
+         padding: 0; 
+         width: 80%;
+         text-align: left;
+         margin: 2% 0 5% 0;
+         padding: 0 10% 0 10%;
+    }
+    .training-column-two input { 
+       width: 97%; 
+         background: none repeat scroll 0 0 #FFFFFF; 
+         border: 1px solid #C9C9C9;  
+         padding: 6px; 
+         font-size: 12px;  
+    }
+    .training-column-two p{
+        padding: 2% 0;
+    }
+    form #submit {  
+        margin: 3% 0 0 0;
+        width: 100%;    
+        background: #00BCCE;
+        color: #F2FBFC; 
+        border: 1px solid #00BCCE;  
+        cursor: pointer; 
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+        font-size: 14px;
+        font-weight: bold;  
+        padding: 8px 0 8px 0;
+    }
+    .training-column-two h3 {
+        position: relative;
+        margin: 0 0 10px 0;
+        color: #00BCCE;
+        font-size: 18px;
+    }
+    /*приемущества*/
+    .advantage{
+        margin: 0 auto;
+        padding: 10px 0;
+        display: block;
+        width: 100%; 
+    }
+    .wrap {
+        margin: 0 auto;
+    }
+    .advantage-name{
+        width: 100%;
+        margin: 0 auto;
+    }
+     .advantage-name h1{
+        color: #545454;
+        text-align: center;
+        font-size: 25px;
+    }
+    .advantage-columns {
+        margin: 0 30px;;  
+    }
+    .advantage-column {
+        float: left;
+        width: 100%;
+        padding: 0 25px;
+        text-align: center;
+        line-height: 18px;
+        font-size: 15px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 10px 0 10px; 
+    }
+    .advantage-column h3 {
+        position: relative;
+        font-size: 18px;
+        margin: 0 0 10px;
+    }
+    .ico-bulb,
+    .ico-rocket,
+    .ico-flag {
+        display: block;
+        margin: 0 auto 10px;
+        height: 160px;
+        width: 160px;
+        background-position: -200px 0;
+    }
+    .ico-bulb {
+        background: asset_url("adv_wallet.png");
+    }
+    .ico-rocket{
+        background: asset_url("adv_diploma.png");
+    }
+    .ico-flag {
+        background: asset_url("adv_rocket.png");
+    }
+    /*краткая*/
+    .short{
+        padding: 20px 0;
+    }
+    .short-name{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .short-name h1{
+        color: #545454;
+        text-align: center;
+        font-size: 25px;
+    }
+    .short-columns {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .short-column {
+        width: 100%;
+        padding: 0 20px;
+        text-align: left;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 10px 0 5px 0;
+    }
+    .short-column ul{
+        -moz-column-count:1; 
+        -webkit-column-count:1; 
+        column-count:1;
+        list-style-type:decimal;
+    }
+    .short-column li {
+        color: #00BCCE; 
+        padding: 0 0 10px 0;
+        margin-left: 35px;
+        font-size: 15px;
+       }
+    .short-column span {
+        color: #5B5B5B; 
+    }
+
+    .short-column-button img{
+        float: left;
+        background: #1199AA;
+        margin: 0 auto;
+        padding: 7px 10px;
+    }
+    .short-column-button { 
+        width: 90%;
+        height: 40px; 
+        color: #F2FBFC; 
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+        font-size: 14px;
+        font-weight: bold; 
+        padding: 7px 0 0 35px; 
+        margin: 5% 0 0 0;
+        display: block;
+    }
+    #submit { 
+        margin: 0 0 0 1px;
+        width: 70%;
+        height: 40px; 
+        background: #33BBCC;
+        color: #F2FBFC; 
+        border: 1px solid #00BCCE;  
+        cursor: pointer; 
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+        font-size: 12px;
+        font-weight: bold;  
+        padding: 6px 10px;
+    }
+    /*комов*/
+    .course {
+        margin: 0;
+        background:#00BCCE; 
+    }   
+    .wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .course-columns {
+        margin: 0 auto;
+    }
+    .course-column-ico {
+        float: center;
+        width: 60%;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 10% 20% 10% 20%;
+    }
+    .course-name {
+        width: 100%;
+        float: center;
+        padding: 10px 0 0;
+    }
+    .course-name h1{
+        color: #000000;
+        padding: 0 0 0 35%;
+        font-size: 25px;
+    }
+    .course-column {
+        float: left;
+        width: 100%;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0 0 30px 0 ;
+        padding: 0;
+    }
+    .course-column h3 {
+        position: relative;
+        font-size: 25px;
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
+    .course-column p {
+        padding: 0 10% 15px 10%;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .ico-bulb1{
+        display: block;
+        height: 279px;
+        width: 279px;
+        background-position: 20px 0;
+        background: asset_url("komov.png");
+    }
+    /*сертификаты*/
+    .testimonies {
+        width: 100%;
+        background:#FFFFFF;
+    }
+    .wrapp {
+        width: 100%;
+        margin: 0 0 0;
+        padding: 30px 0 30px 0;
+    }
+    .testimonies-name{
+        width: 100%;
+        margin: 0 auto;
+    }
+     .testimonies-name h1{
+        color: #545454;
+        text-align: center;
+        font-size: 25px;
+    }
+    .testimonies-columns {
+        width: 90%; 
+        margin: 0 auto;
+    }
+    .testimonies-column {
+        width: 100%; 
+        margin: 0 auto;
+    }
+
+   /* отзывы*/
+    .wr {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 0 20px 0;
+    }   
+    .reviews-name{
+        width: 100%;
+        margin: 0 auto;
+    }
+     .reviews-name h1{
+        color: #545454;
+        text-align: center;
+        font-size: 25px;
+    }
+    .reviews-columns {
+        padding: 0 auto;
+    }
+    .reviews-column {
+        margin: 20px auto;
+    }
+    .reviews-column-one {
+        width: 100%;
+    }
+    .reviews-column-two {
+        float: left;
+        width: 100%;
+        padding: 0 10px 15px 10px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 20px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .reviews-column-three {
+        width: 100%;
+    }
+    .reviews-column-four {
+        float: left;
+        width: 100%;
+        padding: 0 10px 15px 10px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 20px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .reviews-column h3 {
+        position: relative;
+        text-align: center;
+        padding: 10px 0 0 0;
+    }
+
+    .ico-bulb3 {
+        margin: 0 auto;
+        background: asset_url("bubble_blue.png");
+    }
+    .ico-rocket3{
+        margin: 0 auto;
+        background: asset_url("bubble_green.png");
+    }
+    .ico-flag3 {
+        margin: 0 auto;
+        background: asset_url("bubble_red.png");
+    }
+    /*стоимость*/
+    .cost{
+        margin: 0 auto;
+        padding:0;
+        width: 100%;
+    }
+    .cost-columns {
+        margin: 0 auto;
+    }
+    .cost-name{
+        width: 100%;
+        padding: 10px 0 5px 0 ;
+    }
+    .cost-name h1{
+        color: #545454;
+        text-align: center;
+        font-size: 25px;
+    }
+    .cost-column {
+        text-align: center;
+         padding: 0; 
+         width: 80%;
+         text-align: left;
+         margin: 2% 0 5% 0;
+         padding: 0 10% 0 12%;
+    }
+    .cost-img{
+        display: block;
+        width: 350px;
+        height: 233px;
+    }
+    .cost-img{
+        background: asset_url("cost_sm.jpg");
+    }
+    .cost-column-two {
+        text-align: center;
+         padding: 0; 
+         width: 80%;
+         text-align: left;
+         margin: 2% 0 5% 0;
+         padding: 0 10% 0 10%;
+    }
+    .cost-column-two input { 
+        width: 97%; 
+         background: none repeat scroll 0 0 #FFFFFF; 
+         border: 1px solid #C9C9C9;  
+         padding: 6px; 
+         font-size: 12px;  
+    }
+    .cost-column-two p{
+        padding: 2% 0;
+    }
+    form #submit {  
+        margin: 3% 0 0 0;
+        width: 100%;    
+        background: #00BCCE;
+        color: #F2FBFC; 
+        border: 1px solid #00BCCE;  
+        cursor: pointer; 
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+        font-size: 14px;
+        font-weight: bold;  
+        padding: 8px 0 8px 0;
+    }
+    .cost-column-two h3 {
+        position: relative;
+        margin: 0 0 10px 0;
+        color: #00BCCE;
+        font-size: 18px;
+    }
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:561px) and (max-width:600px) {
+   /* шапка, подвал*/
+    header{
+        width: 100%;
+        min-height: 83px;
+        padding: 0; 
+    }
+    footer{
+        width: 100%;
+        min-height: 150px;
+        padding: 0;
+    }
+    .logo{
+       float:left;
+        margin: 2% auto 0 2%;
+    }
+    footer .logo {
+        width: 100%;
+       text-align:center;
+        margin: 2% auto;
+    }
+    .number{     
+        color: black;
+        float: right;
+        margin: 10% 2% auto;
+        font-size: 15px; 
+        font-family: HelveticaNeueCyr Light;  
+    }
+    .address{
+        width: 100%;
+        text-align:center;
+        font-size: 14px;
+        margin: 1% auto;
+        font-family: HelveticaNeueCyr Light; 
+    }
+    /*линия*/
+    .separator {
+        height: 2px;
+        background: #00BCCE;
+        clear: both;
+    }
+    /* картинка*/
+    .text {
+        position: absolute;
+        font-family: Garamond;
+        color: #EEEEEE; 
+        width: 75%;
+        top: 15px;
+        left: 35px;
+    }
+    .text span{
+        color: black;
+        font: bold 25px Helvetica, Sans-Serif;
+        background: #00BCCE;
+        padding: 5px 8px 5px 8px;
+    }
+    .text h4{
+         margin: 5px 0 0 0;
+         font-size: 22px;
+        font-weight: normal; 
+    }
+    /*обучение*/
+    .training-columns {
+        margin: 0 30px;
+    }
+    .training-column {
+        float: left;
+        width: 100%;
+        padding: 0;
+        text-align: left;
+        margin: 20px 0 0 0;  
+    }
+    .training-column  ul{
+        padding: 0 0 0 40px; 
+    }
+    .training-column  li{
+        line-height: 18px;
+        font-size: 16px; 
+    }
+    .training-column h3 {
+        position: relative;
+        margin: 0 0 5px;
+        line-height: 18px;
+        font-size: 18px;
+    }
+    .training-column-two {
+        float: left;
+        padding: 0; 
+        width: 50%;
+        text-align: left;
+        margin: 2% 0 5% 25%;
+    }
+    .training-column-two input { 
+        width: 94%; 
+        background: none repeat scroll 0 0 #FFFFFF; 
+        border: 1px solid #C9C9C9;  
+        padding: 6px; 
+        font-size: 12px; 
+    }
+    .training-column-two p{
+        padding: 2% 0;
+    }
+    form #submit {  
+        margin: 3% 0 0 0;
+        width: 100%;    
+        background: #00BCCE;
+        color: #F2FBFC; 
+        border: 1px solid #00BCCE;  
+        cursor: pointer; 
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+        font-size: 14px;
+        font-weight: bold;  
+        padding: 8px 0 8px 0;
+    }
+    .training-column-two h3 {
+        position: relative;
+        margin: 0 0 10px 0;
+        color: #00BCCE;
+        font-size: 18px;
+    }
+    /*приемущества*/
+    .advantage{
+        margin: 0 auto;
+        padding: 10px 0;
+        display: block;
+        width: 100%; 
+    }
+    .wrap {
+        margin: 0 auto;
+    }
+    .advantage-name{
+        width: 100%;
+        margin: 0 auto;
+    }
+     .advantage-name h1{
+        color: #545454;
+        text-align: center;
+        font-size: 25px;
+    }
+    .advantage-columns {
+        margin: 0 30px;;  
+    }
+    .advantage-column {
+        float: left;
+        width: 100%;
+        padding: 0 25px;
+        text-align: center;
+        line-height: 18px;
+        font-size: 15px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 10px 0 10px; 
+    }
+    .advantage-column h3 {
+        position: relative;
+        font-size: 18px;
+        margin: 0 0 10px;
+    }
+    .ico-bulb,
+    .ico-rocket,
+    .ico-flag {
+        display: block;
+        margin: 0 auto 10px;
+        height: 160px;
+        width: 160px;
+        background-position: -200px 0;
+    }
+    .ico-bulb {
+        background: asset_url("adv_wallet.png");
+    }
+    .ico-rocket{
+        background: asset_url("adv_diploma.png");
+    }
+    .ico-flag {
+        background: asset_url("adv_rocket.png");
+    }
+    /*краткая*/
+    .short{
+        padding: 20px 0;
+    }
+    .short-name{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .short-name h1{
+        color: #545454;
+        text-align: center;
+        font-size: 25px;
+    }
+    .short-columns {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .short-column {
+        width: 100%;
+        padding: 0 20px;
+        text-align: left;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 10px 0 5px 0;
+    }
+    .short-column ul{
+        -moz-column-count:1; 
+        -webkit-column-count:1; 
+        column-count:1;
+        list-style-type:decimal;
+    }
+    .short-column li {
+        color: #00BCCE; 
+        padding: 0 0 10px 0;
+        margin-left: 35px;
+        font-size: 15px;
+       }
+    .short-column span {
+        color: #5B5B5B; 
+    }
+
+    .short-column-button img{
+        float: left;
+        background: #1199AA;
+        margin: 0 auto;
+        padding: 7px 10px;
+    }
+    .short-column-button { 
+        width: 90%;
+        height: 40px; 
+        color: #F2FBFC; 
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+        font-size: 14px;
+        font-weight: bold; 
+        padding: 7px 0 0 35px; 
+        margin: 5% 0 0 0;
+    }
+    #submit { 
+        margin: 0 0 0 1px;
+        width: 70%;
+        height: 40px; 
+        background: #33BBCC;
+        color: #F2FBFC; 
+        border: 1px solid #00BCCE;  
+        cursor: pointer; 
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+        font-size: 12px;
+        font-weight: bold;  
+        padding: 6px 10px;
+    }
+    /*комов*/
+    .course {
+        margin: 0;
+        background:#00BCCE; 
+    }   
+    .wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .course-columns {
+        margin: 0 auto;
+    }
+    .course-column-ico {
+        float: center;
+        width: 65%;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 10px 0 10px 18%;
+    }
+    .course-name {
+        width: 100%;
+        float: center;
+        padding: 10px 0 0;
+    }
+    .course-name h1{
+        color: #000000;
+        padding: 0 0 0 35%;
+        font-size: 25px;
+    }
+    .course-column {
+        float: left;
+        width: 100%;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0 0 30px 0 ;
+        padding: 0;
+    }
+    .course-column h3 {
+        position: relative;
+        font-size: 25px;
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
+    .course-column p {
+        padding: 0 10% 15px 10%;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .ico-bulb1{
+        display: block;
+        height: 279px;
+        width: 279px;
+        background-position: 20px 0;
+        background: asset_url("komov.png");
+    }
+    /*сертификаты*/
+    .testimonies {
+        width: 100%;
+        background:#FFFFFF;
+    }
+    .wrapp {
+        width: 100%;
+        margin: 0 0 0;
+        padding: 30px 0 30px 0;
+    }
+    .testimonies-name{
+        width: 100%;
+        margin: 0 auto;
+    }
+     .testimonies-name h1{
+        color: #545454;
+        text-align: center;
+        font-size: 25px;
+    }
+    .testimonies-columns {
+        width: 90%; 
+        margin: 0 auto;
+    }
+    .testimonies-column {
+        width: 100%; 
+        margin: 0 auto;
+    }
+
+   /* отзывы*/
+    .wr {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 0 20px 0;
+    }   
+    .reviews-name{
+        width: 100%;
+        margin: 0 auto;
+    }
+     .reviews-name h1{
+        color: #545454;
+        text-align: center;
+        font-size: 25px;
+    }
+    .reviews-columns {
+        padding: 0 auto;
+    }
+    .reviews-column {
+        margin: 20px auto;
+    }
+    .reviews-column-one {
+        width: 100%;
+    }
+    .reviews-column-two {
+        float: left;
+        width: 100%;
+        padding: 0 10px 15px 10px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 20px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .reviews-column-three {
+        width: 100%;
+    }
+    .reviews-column-four {
+        float: left;
+        width: 100%;
+        padding: 0 10px 15px 10px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 20px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .reviews-column h3 {
+        position: relative;
+        text-align: center;
+        padding: 10px 0 0 0;
+    }
+    .ico-bulb3 {
+        margin: 0 auto;
+        background: asset_url("bubble_blue.png");
+    }
+    .ico-rocket3{
+        margin: 0 auto;
+        background: asset_url("bubble_green.png");
+    }
+    .ico-flag3 {
+        margin: 0 auto;
+        background: asset_url("bubble_red.png");
+    }
+    /*стоимость*/
+    .cost{
+        margin: 0 auto;
+        padding:0;
+        width: 100%;
+    }
+    .cost-columns {
+        margin: 0 auto;
+    }
+    .cost-name{
+        width: 100%;
+        padding: 10px 0 5px 0 ;
+    }
+    .cost-name h1{
+        color: #545454;
+        text-align: center;
+        font-size: 25px;
+    }
+    .cost-column {
+        width: 100%;
+        padding: 0 20% 0 20%;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 10px 0 10px;
+    }
+    .cost-img{
+        display: block;
+        width: 350px;
+        height: 240px;
+    }
+    .cost-img{
+        background: asset_url("cost_sm.jpg");
+    }
+    .cost-column-two {
+        float: left;
+        padding: 0; 
+        width: 50%;
+        text-align: left;
+        margin: 2% 0 5% 25%;
+    }
+    .cost-column-two input { 
+        width: 95%; 
+        background: none repeat scroll 0 0 #FFFFFF; 
+        border: 1px solid #C9C9C9;  
+        padding: 6px; 
+        font-size: 12px; 
+    }
+    .cost-column-two p{
+        padding: 2% 0;
+    }
+    form #submit {  
+        margin: 3% 0 0 0;
+        width: 100%;    
+        background: #00BCCE;
+        color: #F2FBFC; 
+        border: 1px solid #00BCCE;  
+        cursor: pointer; 
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+        font-size: 14px;
+        font-weight: bold;  
+        padding: 8px 0 8px 0;
+    }
+    .cost-column-two h3 {
+        position: relative;
+        margin: 0 0 10px 0;
+        color: #00BCCE;
+        font-size: 18px;
+    }
+
+  
+}
+
+
+
+
+
+
+@media (min-width:601px) and (max-width:709px) {
+   /* шапка, подвал*/
+    header{
+        width: 100%;
+        min-height: 83px;
+        padding: 0; 
+    }
+    footer{
+        width: 100%;
+        min-height: 150px;
+        padding: 0;
+    }
+    .logo{
+       float:left;
+        margin: 2% auto 0 2%;
+    }
+    footer .logo {
+        width: 100%;
+       text-align:center;
+        margin: 2% auto;
+    }
+    .number{     
+        color: black;
+        float: right;
+        margin: 5% 2% auto;
+        font-size: 15px; 
+        font-family: HelveticaNeueCyr Light;  
+    }
+    .address{
+        width: 100%;
+        text-align:center;
+        font-size: 14px;
+        margin: 1% auto;
+        font-family: HelveticaNeueCyr Light; 
+    }
+    /*линия*/
+    .separator {
+        height: 2px;
+        background: #00BCCE;
+        clear: both;
+    }
+    /* картинка*/
+    .text {
+        position: absolute;
+        font-family: Garamond;
+        color: #EEEEEE; 
+        width: 75%;
+        top: 15px;
+        left: 35px;
+    }
+    .text span{
+        color: black;
+        font: bold 25px Helvetica, Sans-Serif;
+        background: #00BCCE;
+        padding: 5px 8px 5px 8px;
+    }
+    .text h4{
+         margin: 5px 0 0 0;
+         font-size: 22px;
+        font-weight: normal; 
+    }
+    /*обучение*/
+    .training-columns {
+        margin: 0 30px;
+    }
+    .training-column {
+        float: left;
+        width: 100%;
+        padding: 0;
+        text-align: left;
+        margin: 20px 0 0 0;  
+    }
+    .training-column  ul{
+        padding: 0 0 0 40px; 
+    }
+    .training-column  li{
+        line-height: 18px;
+        font-size: 16px; 
+    }
+    .training-column h3 {
+        position: relative;
+        margin: 0 0 5px;
+        line-height: 18px;
+        font-size: 18px;
+    }
+    .training-column-two {
+        float: left;
+        padding: 0; 
+        width: 50%;
+        text-align: left;
+        margin: 2% 0 5% 25%;
+    }
+    .training-column-two input { 
+        width: 95%; 
+        background: none repeat scroll 0 0 #FFFFFF; 
+        border: 1px solid #C9C9C9;  
+        padding: 6px; 
+        font-size: 12px; 
+    }
+    .training-column-two p{
+        padding: 2% 0;
+    }
+    form #submit {  
+        margin: 3% 0 0 0;
+        width: 100%;    
+        background: #00BCCE;
+        color: #F2FBFC; 
+        border: 1px solid #00BCCE;  
+        cursor: pointer; 
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+        font-size: 14px;
+        font-weight: bold;  
+        padding: 8px 0 8px 0;
+    }
+    .training-column-two h3 {
+        position: relative;
+        margin: 0 0 10px 0;
+        color: #00BCCE;
+        font-size: 18px;
+    }
+    /*приемущества*/
+    .advantage{
+        margin: 0 auto;
+        padding: 10px 0;
+        display: block;
+        width: 100%; 
+    }
+    .wrap {
+        margin: 0 auto;
+    }
+    .advantage-name{
+        width: 100%;
+        margin: 0 auto;
+    }
+     .advantage-name h1{
+        color: #545454;
+        text-align: center;
+        font-size: 25px;
+    }
+    .advantage-columns {
+        margin: 0 30px;;  
+    }
+    .advantage-column {
+        float: left;
+        width: 100%;
+        padding: 0 25px;
+        text-align: center;
+        line-height: 18px;
+        font-size: 15px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 10px 0 10px; 
+    }
+    .advantage-column h3 {
+        position: relative;
+        font-size: 18px;
+        margin: 0 0 10px;
+    }
+    .ico-bulb,
+    .ico-rocket,
+    .ico-flag {
+        display: block;
+        margin: 0 auto 10px;
+        height: 160px;
+        width: 160px;
+        background-position: -200px 0;
+    }
+    .ico-bulb {
+        background: asset_url("adv_wallet.png");
+    }
+    .ico-rocket{
+        background: asset_url("adv_diploma.png");
+    }
+    .ico-flag {
+        background: asset_url("adv_rocket.png");
+    }
+    /*краткая*/
+    .short{
+        padding: 20px 0;
+    }
+    .short-name{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .short-name h1{
+        color: #545454;
+        text-align: center;
+        font-size: 25px;
+    }
+    .short-columns {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .short-column {
+        width: 100%;
+        padding: 0 20px;
+        text-align: left;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 10px 0 5px 0;
+    }
+    .short-column ul{
+        -moz-column-count:1; 
+        -webkit-column-count:1; 
+        column-count:1;
+        list-style-type:decimal;
+    }
+    .short-column li {
+        color: #00BCCE; 
+        padding: 0 0 10px 0;
+        margin-left: 35px;
+        font-size: 15px;
+       }
+    .short-column span {
+        color: #5B5B5B; 
+    }
+
+    .short-column-button img{
+        float: left;
+        background: #1199AA;
+        margin: 0 auto;
+        padding: 7px 10px;
+    }
+    .short-column-button { 
+        width: 90%;
+        height: 40px; 
+        color: #F2FBFC; 
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+        font-size: 14px;
+        font-weight: bold; 
+        padding: 7px 0 0 35px; 
+        margin: 5% 0 0 0;
+    }
+    #submit { 
+        margin: 0 0 0 1px;
+        width: 70%;
+        height: 40px; 
+        background: #33BBCC;
+        color: #F2FBFC; 
+        border: 1px solid #00BCCE;  
+        cursor: pointer; 
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+        font-size: 12px;
+        font-weight: bold;  
+        padding: 6px 10px;
+    }
+    /*комов*/
+    .course {
+        margin: 0;
+        background:#00BCCE; 
+    }   
+    .wrapper {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .course-columns {
+        margin: 0 auto;
+    }
+    .course-column-ico {
+        float: center;
+        width: 65%;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 10px 0 10px 25%;
+    }
+    .course-name {
+        width: 100%;
+        float: center;
+        padding: 10px 0 0;
+    }
+    .course-name h1{
+        color: #000000;
+        padding: 0 0 0 35%;
+        font-size: 25px;
+    }
+    .course-column {
+        float: left;
+        width: 100%;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0 0 30px 0 ;
+        padding: 0;
+    }
+    .course-column h3 {
+        position: relative;
+        font-size: 25px;
+        text-align: center;
+        margin: 0 0 20px 0;
+    }
+    .course-column p {
+        padding: 0 10% 15px 10%;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .ico-bulb1{
+        display: block;
+        height: 279px;
+        width: 279px;
+        background-position: 20px 0;
+        background: asset_url("komov.png");
+    }
+    /*сертификаты*/
+    .testimonies {
+        width: 100%;
+        background:#FFFFFF;
+    }
+    .wrapp {
+        width: 100%;
+        margin: 0 0 0;
+        padding: 30px 0 30px 0;
+    }
+    .testimonies-name{
+        width: 100%;
+        margin: 0 auto;
+    }
+     .testimonies-name h1{
+        color: #545454;
+        text-align: center;
+        font-size: 25px;
+    }
+    .testimonies-columns {
+        width: 90%; 
+        margin: 0 auto;
+    }
+    .testimonies-column {
+        width: 100%; 
+        margin: 0 auto;
+    }
+
+   /* отзывы*/
+    .wr {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 0 20px 0;
+    }   
+    .reviews-name{
+        width: 100%;
+        margin: 0 auto;
+    }
+     .reviews-name h1{
+        color: #545454;
+        text-align: center;
+        font-size: 25px;
+    }
+    .reviews-columns {
+        padding: 0 auto;
+    }
+    .reviews-column {
+        margin: 20px auto;
+    }
+    .reviews-column-one {
+        width: 100%;
+    }
+    .reviews-column-two {
+        float: left;
+        width: 100%;
+        padding: 0 10px 15px 10px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 20px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .reviews-column-three {
+        width: 100%;
+    }
+    .reviews-column-four {
+        float: left;
+        width: 100%;
+        padding: 0 10px 15px 10px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 20px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .reviews-column h3 {
+        position: relative;
+        text-align: center;
+        padding: 10px 0 0 0;
+    }
+    .ico-bulb3 {
+        margin: 0 auto;
+        background: asset_url("bubble_blue.png");
+    }
+    .ico-rocket3{
+        margin: 0 auto;
+        background: asset_url("bubble_green.png");
+    }
+    .ico-flag3 {
+        margin: 0 auto;
+        background: asset_url("bubble_red.png");
+    }
+    /*стоимость*/
+    .cost{
+        margin: 0 auto;
+        padding:0;
+        width: 100%;
+    }
+    .cost-columns {
+        margin: 0 auto;
+    }
+    .cost-name{
+        width: 100%;
+        padding: 10px 0 5px 0 ;
+    }
+    .cost-name h1{
+        color: #545454;
+        text-align: center;
+        font-size: 25px;
+    }
+    .cost-column {
+        width: 100%;
+        padding: 0 20% 0 20%;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 10px 0 10px;
+    }
+    .cost-img{
+        display: block;
+        width: 350px;
+        height: 240px;
+    }
+    .cost-img{
+        background: asset_url("cost_sm.jpg");
+    }
+    .cost-column-two {
+        float: left;
+        padding: 0; 
+        width: 50%;
+        text-align: left;
+        margin: 2% 0 5% 25%;
+    }
+    .cost-column-two input { 
+        width: 95%; 
+        background: none repeat scroll 0 0 #FFFFFF; 
+        border: 1px solid #C9C9C9;  
+        padding: 6px; 
+        font-size: 12px; 
+    }
+    .cost-column-two p{
+        padding: 2% 0;
+    }
+    form #submit {  
+        margin: 3% 0 0 0;
+        width: 100%;    
+        background: #00BCCE;
+        color: #F2FBFC; 
+        border: 1px solid #00BCCE;  
+        cursor: pointer; 
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+        font-size: 14px;
+        font-weight: bold;  
+        padding: 8px 0 8px 0;
+    }
+    .cost-column-two h3 {
+        position: relative;
+        margin: 0 0 10px 0;
+        color: #00BCCE;
+        font-size: 18px;
+    }
+
+  
+}
